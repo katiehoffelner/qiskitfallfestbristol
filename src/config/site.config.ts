@@ -67,7 +67,7 @@ const siteConfigRaw = {
       'This October, join us for an introductory lecture, careers panel, and coding workshop. Hosted at the University of Bristol in collaboration with IBM Quantum.',
     primaryCta: { label: 'Register', href: '#pricing' },
     secondaryCta: { label: 'See Demo', href: '#features' },
-    stats: null,
+    stats: [],
     // stats: [
     //   { value: '10K+', label: 'Active users' },
     //   { value: '99.9%', label: 'Uptime' },
