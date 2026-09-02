@@ -27,7 +27,7 @@ const titleLines = hero.title.split('\n')
           {titleLines.map((line, i) => (
             <span>
               {i === titleLines.length - 1 ? (
-                <span class="gradient-text">{line}</span>
+                <span>{line}</span>
               ) : (
                 <>{line}<br /></>
               )}
@@ -46,9 +46,9 @@ const titleLines = hero.title.split('\n')
             {hero.primaryCta.label}
             <Icon name="arrow_right" size={18} />
           </a>
-          <a href={hero.secondaryCta.href} class="ac-hero__cta-secondary">
+          <!-- <a href={hero.secondaryCta.href} class="ac-hero__cta-secondary">
             {hero.secondaryCta.label}
-          </a>
+          </a> -->
         </div>
 
         {hero.stats && (
@@ -90,31 +90,17 @@ const titleLines = hero.title.split('\n')
     transform: translateX(-50%);
     width: 50rem;
     height: 50rem;
-    background: radial-gradient(
-      circle,
-      rgba(var(--ac-primary), 0.12) 0%,
-      rgba(var(--ac-secondary), 0.08) 40%,
-      transparent 70%
-    );
+   
     border-radius: 50%;
   }
 
   .ac-hero__grid-pattern {
     position: absolute;
     inset: 0;
-    background-image: linear-gradient(
-        var(--ac-border-color) 0.0625rem,
-        transparent 0.0625rem
-      ),
-      linear-gradient(90deg, var(--ac-border-color) 0.0625rem, transparent 0.0625rem);
-    background-size: 3.75rem 3.75rem;
-    opacity: 0.4;
-    mask-image: radial-gradient(ellipse at center, black 30%, transparent 70%);
-    -webkit-mask-image: radial-gradient(
-      ellipse at center,
-      black 30%,
-      transparent 70%
-    );
+    background-image: url(../images/hero-bg.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .ac-hero__content {
@@ -159,7 +145,7 @@ const titleLines = hero.title.split('\n')
 
   .ac-hero__description {
     font-size: var(--ac-text-xl);
-    color: var(--ac-text-muted);
+    color: var(--ac-white);
     line-height: var(--ac-leading-relaxed);
     max-width: 35rem;
   }

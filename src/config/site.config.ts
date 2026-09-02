@@ -60,17 +60,19 @@ const siteConfigRaw = {
 
   /** ---- Hero Section ---- */
   hero: {
-    badge: 'New: v2.0 is here',
-    title: 'Build your next SaaS\nin record time',
+    badge: null,
+    // badge: 'New: v2.0 is here',
+    title: 'Explore Quantum Computing',
     description:
-      'Stop wasting months building from scratch. Our platform gives you everything you need to launch, grow, and scale your SaaS business.',
-    primaryCta: { label: 'Start Free Trial', href: '#pricing' },
+      'This October, join us for an introductory lecture, careers panel, and coding workshop. Hosted at the University of Bristol in collaboration with IBM Quantum.',
+    primaryCta: { label: 'Register', href: '#pricing' },
     secondaryCta: { label: 'See Demo', href: '#features' },
-    stats: [
-      { value: '10K+', label: 'Active users' },
-      { value: '99.9%', label: 'Uptime' },
-      { value: '4.9/5', label: 'Rating' },
-    ],
+    stats: null,
+    // stats: [
+    //   { value: '10K+', label: 'Active users' },
+    //   { value: '99.9%', label: 'Uptime' },
+    //   { value: '4.9/5', label: 'Rating' },
+    // ],
   },
 
   /** ---- Stats Section (optional) ---- */
