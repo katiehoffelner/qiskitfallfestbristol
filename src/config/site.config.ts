@@ -264,7 +264,7 @@ const siteConfigRaw = {
   faq: {
     badge: 'FAQ',
     title: 'Frequently Asked Questions',
-    description: "Can't find what you're looking for? Contact our support team.",
+    description: "Can't find what you're looking for? Join our Discord server and our team will be available to answer questions.",
     items: [
       {
         question: 'Who can come to the event?',
