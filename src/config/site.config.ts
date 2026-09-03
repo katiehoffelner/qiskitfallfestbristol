@@ -257,7 +257,7 @@ const siteConfigRaw = {
 
   /** ---- FAQ Section ---- */
   faq: {
-    badge: 'FAQ',
+    badge: null,
     title: 'Frequently Asked Questions',
     description: "Can't find what you're looking for? Join our Discord server and our team will be available to answer questions.",
     items: [
@@ -347,7 +347,7 @@ const siteConfigRaw = {
 
   /** ---- Contact Section ---- */
   contact: {
-    badge: 'Contact',
+    badge: null,
     title: "Contact Us",
     description:
       "Have a question or ready to get started? Our team replies within 24 hours on business days.",
@@ -368,7 +368,7 @@ const siteConfigRaw = {
 
   /** ---- Team Section ---- */
   team: {
-    badge: 'Team',
+    badge: null,
     title: 'Our Team',
     description: 'An event organised by University of Bristol students, for University of Bristol students.',
     members: [
@@ -415,7 +415,7 @@ const siteConfigRaw = {
 
     /** ---- Speakers Section ---- */
   speakers: {
-    badge: 'Speakers',
+    badge: null,
     title: 'Speakers',
     description: 'Thank you to the speakers who have agreed to help with this event.',
     members: [
@@ -553,8 +553,8 @@ const siteConfigRaw = {
 
   /** ---- Roadmap Section ---- */
   roadmap: {
-    badge: 'Roadmap',
-    title: "Calendar",
+    badge: null,
+    title: "About the Event",
     description: "Four sessions designed to help you embark on your quantum computing journey with confidence. Register now to attend these sessions.",
     items: [
       {
