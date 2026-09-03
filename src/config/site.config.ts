@@ -104,7 +104,7 @@ const siteConfigRaw = {
   howItWorks: {
     badge: 'Process',
     title: 'Join us in 3 simple steps',
-    description: 'Get the most out of this event ',
+    description: 'Get the most out of this event by coming prepared.',
     steps: [
       {
         number: 1,
