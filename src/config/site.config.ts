@@ -77,6 +77,7 @@ const siteConfigRaw = {
 
   /** ---- Stats Section (optional) ---- */
   stats: {
+    title: 'About the Event',
     items: [
       { value: '10K+', label: 'Active Users' },
       { value: '99.9%', label: 'Uptime SLA' },
@@ -102,6 +103,7 @@ const siteConfigRaw = {
 
   /** ---- How It Works Section (optional) ---- */
   howItWorks: {
+    badge: null,
     title: 'Getting Started',
     description: 'If you want to get involved, follow these 3 easy steps.',
     steps: [
