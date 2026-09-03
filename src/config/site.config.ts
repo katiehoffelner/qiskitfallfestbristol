@@ -103,23 +103,23 @@ const siteConfigRaw = {
   /** ---- How It Works Section (optional) ---- */
   howItWorks: {
     badge: 'Process',
-    title: 'Get started in 3 simple steps',
-    description: 'Launch your product faster than ever',
+    title: 'Join us in 3 simple steps',
+    description: 'Get the most out of this event ',
     steps: [
       {
         number: 1,
-        title: 'Sign Up',
-        description: 'Create your account in seconds and start building your SaaS product with our powerful tools.',
+        title: 'Register',
+        description: 'Register interest on our EventBrite page.',
       },
       {
         number: 2,
-        title: 'Build & Configure',
-        description: 'Use our intuitive builder to create features, set up integrations, and customize your workspace.',
+        title: 'Join our Discord',
+        description: 'Find resources, ask questions, and meet others in the community.',
       },
       {
         number: 3,
-        title: 'Launch & Scale',
-        description: 'Deploy your product live and start growing. We handle the infrastructure so you focus on users.',
+        title: 'Download Qiskit library',
+        description: 'Prepare for our coding workshop by making sure you have the necessary installations.',
       },
     ],
   },
