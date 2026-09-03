@@ -121,45 +121,28 @@ const siteConfigRaw = {
 
   /** ---- Features Section ---- */
   features: {
-    badge: 'Features',
-    title: 'Everything you need to succeed',
-    description: 'Powerful tools designed to help you build, launch, and scale.',
+    badge: null,
+    title: 'Resources',
+    description: 'We recommend preparing before attending the coding workshop with these resources in order to improve your learning experience. \
+      More resources are available on our Discord server.',
     items: [
       {
-        icon: 'rocket',
-        title: 'Lightning Fast',
+        icon: null,
+        title: 'Download Qiskit library',
         description:
           'Optimized for speed with edge computing and smart caching. Your users will feel the difference.',
       },
       {
-        icon: 'shield',
-        title: 'Enterprise Security',
+        icon: null,
+        title: 'Set up an account with IBM Quantum',
         description:
           'Bank-grade encryption, SOC2 compliance, and advanced threat protection built-in.',
       },
       {
-        icon: 'chart',
-        title: 'Advanced Analytics',
+        icon: null,
+        title: 'Further reading: Quantum Country',
         description:
           'Real-time dashboards, custom reports, and AI-powered insights to drive growth.',
-      },
-      {
-        icon: 'puzzle',
-        title: 'Easy Integrations',
-        description:
-          'Connect with 100+ tools you already use. Zapier, Slack, Stripe, and more.',
-      },
-      {
-        icon: 'users',
-        title: 'Team Collaboration',
-        description:
-          'Built-in roles, permissions, and real-time collaboration for your entire team.',
-      },
-      {
-        icon: 'headset',
-        title: '24/7 Support',
-        description:
-          'Our expert team is always available via chat, email, or phone whenever you need help.',
       },
     ],
   },
