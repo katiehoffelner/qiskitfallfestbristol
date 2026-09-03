@@ -418,6 +418,53 @@ const siteConfigRaw = {
     ],
   },
 
+    /** ---- Team Section ---- */
+  speakers: {
+    badge: 'Team',
+    title: 'Speakers',
+    description: 'Thank you to the speakers who have agreed to help with this event.',
+    members: [
+      {
+        name: 'Katie Hoffelner',
+        role: 'Lead Organiser',
+        bio: 'MSci Physics graduate.',
+        avatar: 'url(../images/katie.jpg)',
+        socials: [
+          { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/katie-hoffelner/' },
+          { platform: 'GitHub', icon: 'github', href: 'https://github.com/katiehoffelner' },
+        ],
+      },
+      {
+        name: 'Moon Devendra',
+        role: 'Organiser',
+        bio: 'MSci Mathematics graduate.',
+        avatar: 'url(../images/moon.png)',
+        socials: [
+          { platform: 'Twitter', icon: 'twitter', href: '#' },
+          { platform: 'GitHub', icon: 'github', href: '#' },
+        ],
+      },
+      {
+        name: 'Eleanor Prideaux',
+        role: 'Organiser',
+        bio: '4th year MSci Physics student.',
+        avatar: 'url(../images/ell.png)',
+        socials: [
+          { platform: 'Twitter', icon: 'twitter', href: '#' },
+        ],
+      },
+      {
+        name: 'Alexander Wood',
+        role: 'Organiser',
+        bio: 'MSci Computer Science graduate, 1st year PhD student in Programming Languages.',
+        avatar: 'url(../images/alex.png)',
+        socials: [
+          { platform: 'LinkedIn', icon: 'linkedin', href: '#' },
+        ],
+      },
+    ],
+  },
+
   /** ---- Trust Badges Section ---- */
   trust: {
     badge: 'Security',
