@@ -374,23 +374,23 @@ const siteConfigRaw = {
   /** ---- Team Section ---- */
   team: {
     badge: 'Team',
-    title: 'Meet the builders',
-    description: 'A passionate team on a mission to make SaaS development effortless.',
+    title: 'Meet the team',
+    description: 'An event organised by University of Bristol students, for University of Bristol students.',
     members: [
       {
-        name: 'Alex Rivera',
-        role: 'CEO & Co-founder',
-        bio: 'Previously led product at Stripe. Obsessed with developer experience.',
+        name: 'Katie Hoffelner',
+        role: 'Lead Organiser',
+        bio: 'MSci Physics graduate.',
         avatar: 'https://i.pravatar.cc/150?img=11',
         socials: [
-          { platform: 'Twitter', icon: 'twitter', href: '#' },
-          { platform: 'LinkedIn', icon: 'linkedin', href: '#' },
+          { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/katie-hoffelner/' },
+          { platform: 'GitHub', icon: 'github', href: 'https://github.com/katiehoffelner' },
         ],
       },
       {
-        name: 'Mia Chen',
-        role: 'CTO & Co-founder',
-        bio: 'Ex-Google engineer. Built infra that serves billions of requests daily.',
+        name: 'Moon Devendra',
+        role: 'Organiser',
+        bio: 'MSci Mathematics graduate.',
         avatar: 'https://i.pravatar.cc/150?img=5',
         socials: [
           { platform: 'Twitter', icon: 'twitter', href: '#' },
@@ -398,18 +398,18 @@ const siteConfigRaw = {
         ],
       },
       {
-        name: 'Jordan Lee',
-        role: 'Head of Design',
-        bio: 'Crafts pixel-perfect interfaces that convert visitors into customers.',
+        name: 'Eleanor Prideaux',
+        role: 'Organiser',
+        bio: '4th year MSci Physics student.',
         avatar: 'https://i.pravatar.cc/150?img=15',
         socials: [
           { platform: 'Twitter', icon: 'twitter', href: '#' },
         ],
       },
       {
-        name: 'Sam Patel',
-        role: 'Head of Growth',
-        bio: 'Scaled 3 SaaS companies from zero to $10M ARR. Loves data.',
+        name: 'Alexander Wood',
+        role: 'Organiser',
+        bio: 'MSci Computer Science graduate, 1st year PhD student in Programming Languages.',
         avatar: 'https://i.pravatar.cc/150?img=8',
         socials: [
           { platform: 'LinkedIn', icon: 'linkedin', href: '#' },
