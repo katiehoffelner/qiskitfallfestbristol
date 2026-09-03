@@ -350,17 +350,13 @@ const siteConfigRaw = {
     badge: null,
     title: "Contact Us",
     description:
-      "Have a question or ready to get started? Our team replies within 24 hours on business days.",
+      "If you plan on attending the event, we recommend that you join our Discord server. Our team are available on this server to help you out.",
     channels: [
-      { icon: 'mail',      label: 'Email us',     href: 'mailto:hello@astrolify.io', value: 'hello@astrolify.io' },
-      { icon: 'headset',   label: 'Live chat',    href: '#',                          value: 'Open in the bottom-right' },
-      { icon: 'satellite', label: 'Headquarters', href: '#',                          value: 'San Francisco, CA' },
+      { icon: 'mail',      label: 'Email us',     href: 'mailto:katie.hoffelner.2022@bristol.ac.uk', value: 'katie.hoffelner.2022@bristol.ac.uk' },
     ],
     topics: [
-      { label: 'General inquiry',   value: 'general'  },
-      { label: 'Sales & pricing',   value: 'sales'    },
-      { label: 'Technical support', value: 'support'  },
-      { label: 'Partnership',       value: 'partners' },
+      { label: 'Student enquiry',   value: 'general'  },
+      { label: 'External enquiry',       value: 'partners' },
       { label: 'Other',             value: 'other'    },
     ],
     cta: 'Send Message',
