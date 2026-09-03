@@ -381,7 +381,7 @@ const siteConfigRaw = {
         name: 'Katie Hoffelner',
         role: 'Lead Organiser',
         bio: 'MSci Physics graduate.',
-        avatar: 'https://i.pravatar.cc/150?img=11',
+        avatar: url(../images/katie.png),
         socials: [
           { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/katie-hoffelner/' },
           { platform: 'GitHub', icon: 'github', href: 'https://github.com/katiehoffelner' },
@@ -391,7 +391,7 @@ const siteConfigRaw = {
         name: 'Moon Devendra',
         role: 'Organiser',
         bio: 'MSci Mathematics graduate.',
-        avatar: 'https://i.pravatar.cc/150?img=5',
+        avatar: url(../images/moon.png),
         socials: [
           { platform: 'Twitter', icon: 'twitter', href: '#' },
           { platform: 'GitHub', icon: 'github', href: '#' },
@@ -401,7 +401,7 @@ const siteConfigRaw = {
         name: 'Eleanor Prideaux',
         role: 'Organiser',
         bio: '4th year MSci Physics student.',
-        avatar: 'https://i.pravatar.cc/150?img=15',
+        avatar: url(../images/ell.png),
         socials: [
           { platform: 'Twitter', icon: 'twitter', href: '#' },
         ],
@@ -410,7 +410,7 @@ const siteConfigRaw = {
         name: 'Alexander Wood',
         role: 'Organiser',
         bio: 'MSci Computer Science graduate, 1st year PhD student in Programming Languages.',
-        avatar: 'https://i.pravatar.cc/150?img=8',
+        avatar: url(../images/alex.png),
         socials: [
           { platform: 'LinkedIn', icon: 'linkedin', href: '#' },
         ],
