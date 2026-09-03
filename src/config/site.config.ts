@@ -381,7 +381,7 @@ const siteConfigRaw = {
         name: 'Katie Hoffelner',
         role: 'Lead Organiser',
         bio: 'MSci Physics graduate.',
-        avatar: 'url(../images/katie.png)',
+        avatar: 'url(../images/katie.jpg)',
         socials: [
           { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/katie-hoffelner/' },
           { platform: 'GitHub', icon: 'github', href: 'https://github.com/katiehoffelner' },
