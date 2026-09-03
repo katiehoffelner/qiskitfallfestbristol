@@ -102,12 +102,8 @@ const siteConfigRaw = {
 
   /** ---- How It Works Section (optional) ---- */
   howItWorks: {
-    badge: 'Process',
-    title: 'About Qiskit Fall Fest',
-    description: 'In October 2026, Qiskit Fall Fest is coming to Bristol! This event is open to all students currently enrolled at the University of Bristol, and is designed to be accessible regardless of your prior experience with quantum computing. \
-      \n We will be hosting four sessions: details can be found below in our Calendar. \
-      \n Many thanks to IBM Quantum, who help organise Qiskit Fall Fest every year. Qiskit Fall Fest is a global collection of quantum computing events, primarily aimed at undergraduate students. \
-      \n If you want to get involved, follow these 3 easy steps.',
+    title: 'Getting Started',
+    description: 'If you want to get involved, follow these 3 easy steps.',
     steps: [
       {
         number: 1,
