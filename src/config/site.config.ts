@@ -88,16 +88,10 @@ const siteConfigRaw = {
 
   /** ---- LogoCloud Section (optional) ---- */
   logocloud: {
-    title: 'Trusted by leading companies worldwide',
+    title: 'Thank you to IBM Quantum who help organise Qiskit Fall Fest every year. \
+      Qiskit Fall Fest is a global collection of quantum computing events, primarily aimed at undergraduate students.',
     logos: [
       { name: 'Stripe',  id: 'stripe'  },
-      { name: 'GitHub',  id: 'github'  },
-      { name: 'Slack',   id: 'slack'   },
-      { name: 'Figma',   id: 'figma'   },
-      { name: 'Vercel',  id: 'vercel'  },
-      { name: 'Notion',  id: 'notion'  },
-      { name: 'Linear',  id: 'linear'  },
-      { name: 'Zapier',  id: 'zapier'  },
     ],
   },
 
