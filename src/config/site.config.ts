@@ -418,9 +418,9 @@ const siteConfigRaw = {
     ],
   },
 
-    /** ---- Team Section ---- */
+    /** ---- Speakers Section ---- */
   speakers: {
-    badge: 'Team',
+    badge: 'Speakers',
     title: 'Speakers',
     description: 'Thank you to the speakers who have agreed to help with this event.',
     members: [
