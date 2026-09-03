@@ -103,8 +103,8 @@ const siteConfigRaw = {
   /** ---- How It Works Section (optional) ---- */
   howItWorks: {
     badge: 'Process',
-    title: 'Join us in 3 simple steps',
-    description: 'Get the most out of this event by coming prepared.',
+    title: 'Getting Started',
+    description: 'Get the most out of this event by coming prepared. Join us in 3 simple steps.',
     steps: [
       {
         number: 1,
@@ -263,7 +263,7 @@ const siteConfigRaw = {
   /** ---- FAQ Section ---- */
   faq: {
     badge: 'FAQ',
-    title: 'Frequently asked questions',
+    title: 'Frequently Asked Questions',
     description: "Can't find what you're looking for? Contact our support team.",
     items: [
       {
@@ -353,7 +353,7 @@ const siteConfigRaw = {
   /** ---- Contact Section ---- */
   contact: {
     badge: 'Contact',
-    title: "Let's talk",
+    title: "Contact Us",
     description:
       "Have a question or ready to get started? Our team replies within 24 hours on business days.",
     channels: [
@@ -374,7 +374,7 @@ const siteConfigRaw = {
   /** ---- Team Section ---- */
   team: {
     badge: 'Team',
-    title: 'Meet the team',
+    title: 'Our Team',
     description: 'An event organised by University of Bristol students, for University of Bristol students.',
     members: [
       {
