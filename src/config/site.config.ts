@@ -12,8 +12,8 @@ import { siteConfigSchema } from './site.config.schema'
 const siteConfigRaw = {
   /** ---- Brand ---- */
   brand: {
-    name: 'Astrolify',
-    tagline: 'Ship your SaaS faster',
+    name: 'Qiskit Fall Fest',
+    tagline: 'University of Bristol',
     logo: '/logo.svg',
   },
 
