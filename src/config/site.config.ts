@@ -534,7 +534,7 @@ const siteConfigRaw = {
   roadmap: {
     badge: null,
     title: "About the Event",
-    description: "Four sessions designed to help you embark on your quantum computing journey with confidence. Register now to attend these sessions.",
+    description: "Four sessions designed to help you embark on your quantum computing journey with confidence. Register now to attend.",
     items: [
       {
         period: 'MON 12th OCT',
