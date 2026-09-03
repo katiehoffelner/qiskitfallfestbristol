@@ -5,20 +5,20 @@ import LandingSection from './LandingSection.astro'
 import SectionHeader from './SectionHeader.astro'
 import TeamMemberCard from './TeamMemberCard.astro'
 
-const { team } = siteConfig
+const { speakers } = siteConfig
 ---
 
 <LandingSection id="speakers" class="section ac-section-band--subtle">
   <div class="ac-team">
     <SectionHeader
-      badge={team.badge}
-      title={team.title}
-      description={team.description}
+      badge={speakers.badge}
+      title={speakers.title}
+      description={speakers.description}
       badgeSize="medium"
     />
 
     <div class="ac-team__grid">
-      {team.members.map((member, i) => <TeamMemberCard member={member} index={i} />)}
+      {speakers.members.map((member, i) => <TeamMemberCard member={member} index={i} />)}
     </div>
   </div>
 </LandingSection>
