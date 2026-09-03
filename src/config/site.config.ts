@@ -267,29 +267,29 @@ const siteConfigRaw = {
     description: "Can't find what you're looking for? Contact our support team.",
     items: [
       {
-        question: 'How does the free trial work?',
+        question: 'Who can come to the event?',
         answer:
-          'You get full access to all Pro features for 14 days. No credit card required. At the end of the trial, choose the plan that works best for you.',
+          'The event is open to all students currently enrolled at the University of Bristol. Please register before attending.',
       },
       {
-        question: 'Can I change my plan later?',
+        question: 'Is the event free?',
         answer:
-          'Absolutely! You can upgrade or downgrade your plan at any time. Changes take effect immediately and we prorate your billing.',
+          'Yes!',
       },
       {
-        question: 'Is there a setup fee?',
+        question: 'Do I need to know anything about quantum computing?',
         answer:
-          'No setup fees, no hidden costs. You only pay the subscription price shown on this page.',
+          'No, our sessions are designed to provide value to everyone, regardless of prior knowledge. However, if you want to get more out of the event, we would recommend checking out our Resources page to learn more.',
       },
       {
-        question: 'Do you offer refunds?',
+        question: 'I won\'t be available to attend all the sessions, is that okay?',
         answer:
-          'Yes, we offer a 30-day money-back guarantee. If you are not satisfied, contact us for a full refund.',
+          'Attendance at all four sessions is recommended but not compulsory. Please register even if you only plan on attending one session. For those who can\'t attend the coding workshop but would still like to try out the exercises, our team will be available on our Discord server to help out.',
       },
       {
-        question: 'What integrations do you support?',
+        question: 'Do I need to prepare anything before the event?',
         answer:
-          'We support 100+ integrations including Slack, Stripe, GitHub, Zapier, HubSpot, Salesforce, and many more. Custom integrations are available on Enterprise plans.',
+          'Our coding workshop will make use of the Qiskit library on Python, which will need to be installed. We highly encourage you to work through the Resources page which will help you making the necessary installations, so that you can spend more time during the session working on the coding exercises. The first three sessions don\'t require any preparation, just show up ready to learn!',
       },
     ],
   },
