@@ -113,7 +113,7 @@ const siteConfigRaw = {
       },
       {
         number: 2,
-        title: 'Join our Discord',
+        title: 'Join our Discord server',
         description: 'Find resources, ask questions, and meet others in the community.',
       },
       {
