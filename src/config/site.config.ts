@@ -63,7 +63,6 @@ const siteConfigRaw = {
   /** ---- Hero Section ---- */
   hero: {
     badge: null,
-    // badge: 'New: v2.0 is here',
     title: 'Explore Quantum Computing',
     description:
       'This October, join us for an introductory lecture, careers panel, and coding workshop. Hosted at the University of Bristol in collaboration with IBM Quantum.',
@@ -77,26 +76,7 @@ const siteConfigRaw = {
     // ],
   },
 
-  /** ---- Stats Section (optional) ---- */
-  stats: {
-    items: [
-      { value: '10K+', label: 'Active Users' },
-      { value: '99.9%', label: 'Uptime SLA' },
-      { value: '$50M+', label: 'Revenue Processed' },
-      { value: '150+', label: 'Countries' },
-    ],
-  },
-
-  /** ---- LogoCloud Section (optional) ---- */
-  logocloud: {
-    title: 'Thank you to IBM Quantum who help organise Qiskit Fall Fest every year. \
-      Qiskit Fall Fest is a global collection of quantum computing events, primarily aimed at undergraduate students.',
-    logos: [
-      { name: 'Stripe',  id: 'stripe'  },
-    ],
-  },
-
-  /** ---- How It Works Section (optional) ---- */
+  /** ---- Getting Started Section ---- */
   howItWorks: {
     badge: null,
     title: 'Getting Started',
@@ -120,7 +100,7 @@ const siteConfigRaw = {
     ],
   },
 
-  /** ---- Features Section ---- */
+    /** ---- Resources Section ---- */
   features: {
     badge: null,
     title: 'Resources',
@@ -145,6 +125,59 @@ const siteConfigRaw = {
         description:
           'We recommend https://quantum.country/ as a well-structured introduction to basic ideas in quantum computing.',
       },
+    ],
+  },
+
+  /** ---- FAQ Section ---- */
+  faq: {
+    badge: null,
+    title: 'Frequently Asked Questions',
+    description: "Can't find what you're looking for? Join our Discord server and our team will be available to answer questions.",
+    items: [
+      {
+        question: 'Who can come to the event?',
+        answer:
+          'The event is open to all students currently enrolled at the University of Bristol. Please register before attending.',
+      },
+      {
+        question: 'Is the event free?',
+        answer:
+          'Yes!',
+      },
+      {
+        question: 'Do I need to know anything about quantum computing?',
+        answer:
+          'No, our sessions are designed to provide value to everyone, regardless of prior knowledge. However, if you want to get more out of the event, we would recommend checking out our Resources page to learn more.',
+      },
+      {
+        question: 'I won\'t be available to attend all the sessions, is that okay?',
+        answer:
+          'Attendance at all four sessions is recommended but not compulsory. Please register even if you only plan on attending one session. For those who can\'t attend the coding workshop but would still like to try out the exercises, our team will be available on our Discord server to help out.',
+      },
+      {
+        question: 'Do I need to prepare anything before the event?',
+        answer:
+          'Our coding workshop will make use of the Qiskit library on Python, which will need to be installed. We highly encourage you to work through the Resources page which will help you making the necessary installations, so that you can spend more time during the session working on the coding exercises. The first three sessions don\'t require any preparation, just show up ready to learn!',
+      },
+    ],
+  },
+
+  /** ---- LogoCloud Section (optional) ---- */
+  logocloud: {
+    title: 'Thank you to IBM Quantum who help organise Qiskit Fall Fest every year. \
+      Qiskit Fall Fest is a global collection of quantum computing events, primarily aimed at undergraduate students.',
+    logos: [
+      { name: 'Stripe',  id: 'stripe'  },
+    ],
+  },
+
+    /** ---- Stats Section (optional) ---- */
+  stats: {
+    items: [
+      { value: '10K+', label: 'Active Users' },
+      { value: '99.9%', label: 'Uptime SLA' },
+      { value: '$50M+', label: 'Revenue Processed' },
+      { value: '150+', label: 'Countries' },
     ],
   },
 
@@ -235,40 +268,6 @@ const siteConfigRaw = {
         role: 'Product Lead at NextGen',
         avatar: 'https://i.pravatar.cc/150?img=8',
         text: 'Finally a tool that understands what developers need. Clean API, great docs, and it just works.',
-      },
-    ],
-  },
-
-  /** ---- FAQ Section ---- */
-  faq: {
-    badge: null,
-    title: 'Frequently Asked Questions',
-    description: "Can't find what you're looking for? Join our Discord server and our team will be available to answer questions.",
-    items: [
-      {
-        question: 'Who can come to the event?',
-        answer:
-          'The event is open to all students currently enrolled at the University of Bristol. Please register before attending.',
-      },
-      {
-        question: 'Is the event free?',
-        answer:
-          'Yes!',
-      },
-      {
-        question: 'Do I need to know anything about quantum computing?',
-        answer:
-          'No, our sessions are designed to provide value to everyone, regardless of prior knowledge. However, if you want to get more out of the event, we would recommend checking out our Resources page to learn more.',
-      },
-      {
-        question: 'I won\'t be available to attend all the sessions, is that okay?',
-        answer:
-          'Attendance at all four sessions is recommended but not compulsory. Please register even if you only plan on attending one session. For those who can\'t attend the coding workshop but would still like to try out the exercises, our team will be available on our Discord server to help out.',
-      },
-      {
-        question: 'Do I need to prepare anything before the event?',
-        answer:
-          'Our coding workshop will make use of the Qiskit library on Python, which will need to be installed. We highly encourage you to work through the Resources page which will help you making the necessary installations, so that you can spend more time during the session working on the coding exercises. The first three sessions don\'t require any preparation, just show up ready to learn!',
       },
     ],
   },
