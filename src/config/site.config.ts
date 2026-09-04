@@ -127,19 +127,19 @@ const siteConfigRaw = {
       More resources are available on our Discord server.',
     items: [
       {
-        icon: 'shield',
+        icon: null,
         title: 'Download Qiskit library',
         description:
           'Optimized for speed with edge computing and smart caching. Your users will feel the difference.',
       },
       {
-        icon: 'shield',
+        icon: null,
         title: 'Set up an account with IBM Quantum',
         description:
           'Bank-grade encryption, SOC2 compliance, and advanced threat protection built-in.',
       },
       {
-        icon: 'shield',
+        icon: null,
         title: 'Further reading: Quantum Country',
         description:
           'Real-time dashboards, custom reports, and AI-powered insights to drive growth.',
