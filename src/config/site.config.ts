@@ -399,9 +399,9 @@ const siteConfigRaw = {
     description: 'Thank you to the speakers who have agreed to help with this event.',
     members: [
       {
-        name: 'Katie Hoffelner',
-        role: 'Lead Organiser',
-        bio: 'MSci Physics graduate.',
+        name: 'TBA',
+        role: 'IBM Quantum',
+        bio: 'An IBM speaker will lead the Quantum and Qiskit 101 session. More details TBA.',
         avatar: 'url(../images/katie.jpg)',
         socials: [
           { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/katie-hoffelner/' },
@@ -409,9 +409,15 @@ const siteConfigRaw = {
         ],
       },
       {
-        name: 'Moon Devendra',
-        role: 'Organiser',
-        bio: 'MSci Mathematics graduate.',
+        name: 'Faisal Alam',
+        role: 'Quantum Algorithms Scientist at Phasecraft',
+        bio: 'Faisal graduated from Franklin & Marshall College with degrees in physics and mathematics. \
+          He received a PhD in physics, with a focus on quantum algorithms, \
+          from the University of Illinois at Urbana-Champaign, with a 2-year stint at Los Alamos National Laboratory. \
+          His research interests are centred on compilation of quantum algorithms to hardware and on classical simulation of quantum systems. \
+          In the past Faisal has worked on gravitational waves and bound states in quantum field theories. \
+          Outside of physics, Faisal’s time is spent reading and writing fiction. \
+          He is also interested in history and philosophy, and enjoys weightlifting and cricket.',
         avatar: 'url(../images/moon.png)',
         socials: [
           { platform: 'Twitter', icon: 'twitter', href: '#' },
@@ -419,18 +425,23 @@ const siteConfigRaw = {
         ],
       },
       {
-        name: 'Eleanor Prideaux',
+        name: 'Tamsin Sandhu',
         role: 'Organiser',
-        bio: '4th year MSci Physics student.',
+        bio: 'Tamsin Sandhu is an associate research engineer at Riverlane, \
+          where she models new scientific ideas from Riverlane\'s research team and helps translate them into Deltaflow, \
+          the company\'s product. She holds a degree in mathematics from Cambridge and a master\'s in applied mathematics from Imperial, \
+          and joined Riverlane\'s graduate scheme in 2025. Tamsin also leads Riverlane\'s annual Bertha Swirles QEC Workshop, \
+          which supports women entering the quantum industry - a cause she is personally passionate about, \
+          having entered the company through the same route herself.',
         avatar: 'url(../images/ell.png)',
         socials: [
           { platform: 'Twitter', icon: 'twitter', href: '#' },
         ],
       },
       {
-        name: 'Alexander Wood',
-        role: 'Organiser',
-        bio: 'MSci Computer Science graduate, 1st year PhD student in Programming Languages.',
+        name: 'Zuleika (Zu) ',
+        role: 'PhD Student at QIST CDT, Bristol',
+        bio: 'More details TBA.',
         avatar: 'url(../images/alex.png)',
         socials: [
           { platform: 'LinkedIn', icon: 'linkedin', href: '#' },
