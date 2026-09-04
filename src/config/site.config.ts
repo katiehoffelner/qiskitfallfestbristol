@@ -441,7 +441,8 @@ const siteConfigRaw = {
         ],
       },
       {
-        name: 'Zulekha (Zu) Samiullah',
+        name: 'TBA'
+        /**name: 'Zulekha (Zu) Samiullah', */
         role: 'PhD Student at QIST CDT, Bristol',
         bio: 'More details TBA.',
         avatar: 'url(../images/alex.png)',
