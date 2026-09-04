@@ -396,7 +396,9 @@ const siteConfigRaw = {
   speakers: {
     badge: null,
     title: 'Our Speakers',
-    description: 'Thank you to the speakers who have agreed to help with this event.',
+    description: 'Thank you to the speakers who have agreed to help with this event. \
+      The first speaker, from IBM Quantum, will be leading the Quantum and Qiskit 101 session. \
+      The other three speakers will be speaking in our Careers Event.',
     members: [
       {
         name: 'TBA',
@@ -426,7 +428,7 @@ const siteConfigRaw = {
       },
       {
         name: 'Tamsin Sandhu',
-        role: 'Organiser',
+        role: 'Associate Research Engineer at Riverlane',
         bio: 'Tamsin Sandhu is an associate research engineer at Riverlane, \
           where she models new scientific ideas from Riverlane\'s research team and helps translate them into Deltaflow, \
           the company\'s product. She holds a degree in mathematics from Cambridge and a master\'s in applied mathematics from Imperial, \
