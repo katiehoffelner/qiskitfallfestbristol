@@ -130,19 +130,19 @@ const siteConfigRaw = {
         icon: 'download',
         title: 'Download Qiskit library',
         description:
-          'Optimized for speed with edge computing and smart caching. Your users will feel the difference.',
+          'LOCK IN UPDATE THIS.',
       },
       {
         icon: 'user-add',
         title: 'Set up an account with IBM Quantum',
         description:
-          'Bank-grade encryption, SOC2 compliance, and advanced threat protection built-in.',
+          'Create an account with https://quantum.cloud.ibm.com/ to submit code to real quantum computers.',
       },
       {
         icon: 'add',
         title: 'Further reading: Quantum Country',
         description:
-          'Real-time dashboards, custom reports, and AI-powered insights to drive growth.',
+          'We recommend https://quantum.country/ as a well-structured introduction to basic ideas in quantum computing.',
       },
     ],
   },
