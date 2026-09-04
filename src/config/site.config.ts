@@ -370,7 +370,6 @@ const siteConfigRaw = {
       { icon: 'linkedin', href: '#' },
     ],
   },
-}
 
 /** FROM HERE ARE SECTIONS NOT CURRENTLY BEING USED*/
 
@@ -670,6 +669,9 @@ const siteConfigRaw = {
     placeholder: 'Enter your email',
     cta: { label: 'Start Free Trial', href: '#' },
   },
+
+/** THIS LIL GUY IS IMPORTANT */
+}
 
 export const siteConfig = siteConfigSchema.parse(siteConfigRaw) as typeof siteConfigRaw
 export type SiteConfig = typeof siteConfig
