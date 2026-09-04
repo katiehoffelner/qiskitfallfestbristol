@@ -20,12 +20,14 @@ const siteConfigRaw = {
   /** ---- Navigation ---- */
   nav: {
     links: [
-      { label: 'Features', href: '#features' },
-      { label: 'Integrations', href: '#integrations' },
-      { label: 'Pricing', href: '#pricing' },
-      { label: 'Blog', href: '#blog' },
+      { label: 'About the Event', href: '#roadmap' },
+      { label: 'Our Speakers', href: '#speakers' },
+      { label: 'Resources', href: '#features' },
+      { label: 'Our Team', href: '#team' },
+      { label: 'FAQ', href: '#faq' },
+      { label: 'Contact Us', href: '#contact' },
     ],
-    cta: { label: 'Get Started', href: '#pricing' },
+    cta: { label: 'Get Started', href: '#howItWorks' },
   },
 
   /** ---- SEO & language (@astrojs/sitemap uses seo.siteUrl) ---- */
@@ -77,7 +79,6 @@ const siteConfigRaw = {
 
   /** ---- Stats Section (optional) ---- */
   stats: {
-    title: 'About the Event',
     items: [
       { value: '10K+', label: 'Active Users' },
       { value: '99.9%', label: 'Uptime SLA' },
