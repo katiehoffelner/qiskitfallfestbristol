@@ -243,7 +243,11 @@ const siteConfigRaw = {
       {
         name: 'Katie Hoffelner',
         role: 'Lead Organiser',
-        bio: 'MSci Physics graduate.',
+        bio: 'Katie Hoffelner graduated with a First Class MSci Physics degree from the University of Bristol in 2026. \
+          Her research focused on evaluating entanglement between fermions as a potential resource for quantum computing. \
+          She is also committed to science communication, \
+          with experience including 2 years public speaking and 1 year writing for the Science & Technology section of Epigram. \
+          In her free time she enjoys weightlifting, climbing, and juggling; she is currently learning to juggle 5 balls!',
         avatar: katieImage,
         socials: [
           { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/katie-hoffelner/' },
