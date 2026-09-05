@@ -13,6 +13,8 @@ import katieImage from '../images/katie.jpg'
 import moonImage from '../images/moon.png'
 import ellImage from '../images/ell.png'
 import alexImage from '../images/alex.png'
+import tamsinImage from '../images/tamsin.png'
+import faisalImage from '../images/faisal.jpg'
 import qiskitImage from '../images/qiskit.png'
 
 const siteConfigRaw = {
@@ -171,7 +173,7 @@ const siteConfigRaw = {
           In the past Faisal has worked on gravitational waves and bound states in quantum field theories. \
           Outside of physics, Faisal’s time is spent reading and writing fiction. \
           He is also interested in history and philosophy, and enjoys weightlifting and cricket.',
-        avatar: qiskitImage,
+        avatar: faisalImage,
         socials: [
           { platform: 'Twitter', icon: 'twitter', href: '#' },
           { platform: 'GitHub', icon: 'github', href: '#' },
@@ -186,7 +188,7 @@ const siteConfigRaw = {
           and joined Riverlane\'s graduate scheme in 2025. Tamsin also leads Riverlane\'s annual Bertha Swirles QEC Workshop, \
           which supports women entering the quantum industry - a cause she is personally passionate about, \
           having entered the company through the same route herself.',
-        avatar: qiskitImage,
+        avatar: tamsinImage,
         socials: [
           { platform: 'Twitter', icon: 'twitter', href: '#' },
         ],
