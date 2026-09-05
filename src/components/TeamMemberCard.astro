@@ -2,6 +2,7 @@
 import '../styles/globals.css'
 import Icon from './Icon.astro'
 import { revealStaggerTokens } from '../utils/reveal'
+import { Image } from 'astro:assets'
 
 interface Social {
   platform: string
@@ -27,7 +28,7 @@ const { member, index } = Astro.props
 
 <div class:list={['ac-team__card', ...revealStaggerTokens(index)]}>
   <div class="ac-team__avatar-wrap">
-    <img
+    <Image
       src={member.avatar}
       alt={member.name}
       class="ac-team__avatar"

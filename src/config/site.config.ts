@@ -9,6 +9,12 @@
 
 import { siteConfigSchema } from './site.config.schema'
 
+import katieImage from '../images/katie.jpg'
+import moonImage from '../images/moon.png'
+import ellImage from '../images/ell.png'
+import alexImage from '../images/alex.png'
+import qiskitImage from '../images/qiskit.png'
+
 const siteConfigRaw = {
   /** ---- Brand ---- */
   brand: {
@@ -149,7 +155,7 @@ const siteConfigRaw = {
         name: 'TBA',
         role: 'IBM Quantum',
         bio: 'An IBM speaker will lead the Quantum and Qiskit 101 session. More details TBA.',
-        avatar: 'url(../images/katie.jpg)',
+        avatar: qiskitImage,
         socials: [
           { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/katie-hoffelner/' },
           { platform: 'GitHub', icon: 'github', href: 'https://github.com/katiehoffelner' },
@@ -165,7 +171,7 @@ const siteConfigRaw = {
           In the past Faisal has worked on gravitational waves and bound states in quantum field theories. \
           Outside of physics, Faisal’s time is spent reading and writing fiction. \
           He is also interested in history and philosophy, and enjoys weightlifting and cricket.',
-        avatar: 'url(../images/moon.png)',
+        avatar: qiskitImage,
         socials: [
           { platform: 'Twitter', icon: 'twitter', href: '#' },
           { platform: 'GitHub', icon: 'github', href: '#' },
@@ -180,7 +186,7 @@ const siteConfigRaw = {
           and joined Riverlane\'s graduate scheme in 2025. Tamsin also leads Riverlane\'s annual Bertha Swirles QEC Workshop, \
           which supports women entering the quantum industry - a cause she is personally passionate about, \
           having entered the company through the same route herself.',
-        avatar: 'url(../images/ell.png)',
+        avatar: qiskitImage,
         socials: [
           { platform: 'Twitter', icon: 'twitter', href: '#' },
         ],
@@ -190,7 +196,7 @@ const siteConfigRaw = {
         /**name: 'Zulekha (Zu) Samiullah', */  
         role: 'PhD Student at QIST CDT, Bristol',
         bio: 'More details TBA.',
-        avatar: 'url(../images/alex.png)',
+        avatar: qiskitImage,
         socials: [
           { platform: 'LinkedIn', icon: 'linkedin', href: '#' },
         ],
@@ -236,7 +242,7 @@ const siteConfigRaw = {
         name: 'Katie Hoffelner',
         role: 'Lead Organiser',
         bio: 'MSci Physics graduate.',
-        avatar: './src/images/katie.jpg',
+        avatar: katieImage,
         socials: [
           { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/katie-hoffelner/' },
           { platform: 'GitHub', icon: 'github', href: 'https://github.com/katiehoffelner' },
@@ -246,7 +252,7 @@ const siteConfigRaw = {
         name: 'Moon Devendra',
         role: 'Organiser',
         bio: 'MSci Mathematics graduate.',
-        avatar: './src/images/moon.png',
+        avatar: moonImage,
         socials: [
           { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/nuclear-moon/' },
         ],
@@ -255,7 +261,7 @@ const siteConfigRaw = {
         name: 'Eleanor Prideaux',
         role: 'Organiser',
         bio: '4th year MSci Physics student.',
-        avatar: './src/images/ell.png',
+        avatar: ellImage,
         socials: [
           { platform: 'Twitter', icon: 'twitter', href: '#' },
         ],
@@ -264,7 +270,7 @@ const siteConfigRaw = {
         name: 'Alexander Wood',
         role: 'Organiser',
         bio: 'MSci Computer Science graduate, 1st year PhD student in Programming Languages.',
-        avatar: './src/images/alex.png',
+        avatar: alexImage,
         socials: [
           { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/alexwood2403/' },
           { platform: 'GitHub', icon: 'github', href: 'https://github.com/bristermitten' },
