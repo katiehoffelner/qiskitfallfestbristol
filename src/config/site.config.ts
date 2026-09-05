@@ -248,8 +248,7 @@ const siteConfigRaw = {
         bio: 'MSci Mathematics graduate.',
         avatar: './src/images/moon.png',
         socials: [
-          { platform: 'Twitter', icon: 'twitter', href: '#' },
-          { platform: 'GitHub', icon: 'github', href: '#' },
+          { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/nuclear-moon/' },
         ],
       },
       {
@@ -267,7 +266,8 @@ const siteConfigRaw = {
         bio: 'MSci Computer Science graduate, 1st year PhD student in Programming Languages.',
         avatar: './src/images/alex.png',
         socials: [
-          { platform: 'LinkedIn', icon: 'linkedin', href: '#' },
+          { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/alexwood2403/' },
+          { platform: 'GitHub', icon: 'github', href: 'https://github.com/bristermitten' },
         ],
       },
     ],
