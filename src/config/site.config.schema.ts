@@ -36,3 +36,4 @@ export const siteConfigSchema = z.looseObject({
 })
 
 export type SiteConfigInput = z.input<typeof siteConfigSchema>
+export type SiteConfigSchema = z.output<typeof siteConfigSchema>
