@@ -51,13 +51,13 @@
   );
 
   /* Hover states */
-  --ac-primary-hover: rgba(var(--ac-primary), 0.9);
+  --ac-primary-hover: rgba(var(--ac-gradient-primary), 0.9);
   --ac-secondary-hover: rgba(var(--ac-secondary), 0.9);
   --ac-dark-hover: rgba(var(--ac-dark), 0.9);
   --ac-white-hover: rgba(var(--ac-white), 0.9);
 
   /* Active states */
-  --ac-primary-active: rgb(var(--ac-primary));
+  --ac-primary-active: rgb(var(--ac-gradient-primary));
   --ac-secondary-active: rgb(var(--ac-secondary));
   --ac-dark-active: rgb(var(--ac-dark));
   --ac-white-active: rgb(var(--ac-white));
