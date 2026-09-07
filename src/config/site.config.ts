@@ -266,10 +266,15 @@ const siteConfigRaw = {
       {
         name: 'Eleanor Prideaux',
         role: 'Organiser',
-        bio: '4th year MSci Physics student.',
+        bio: 'Eleanor Prideaux is a fourth year Msci Physics student at the University of Bristol. \
+          She has studied Quantum Information Theory and is currenty studying Quantum Computing. \
+          She has experience in teaching, \
+          tutoring second year physics students, often explaing quantum mechanics concepts. \
+          In her free time she enjoys crocheting, swimming and running.',
         avatar: ellImage,
         socials: [
-          { platform: 'Twitter', icon: 'twitter', href: '#' },
+          { platform: 'LinkedIn', icon: 'linkedin', href: 'www.linkedin.com/in/eleanor-prideaux-a39459352' },
+          { platform: 'GitHub', icon: 'github', href: 'https://github.com/eleanorprideaux' },
         ],
       },
       {
