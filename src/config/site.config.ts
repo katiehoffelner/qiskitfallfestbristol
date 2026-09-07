@@ -229,7 +229,7 @@ const siteConfigRaw = {
         icon: 'add',
         title: 'Further reading: Quantum Country',
         description:
-          'We recommend https://quantum.country/ as a well-structured introduction to basic ideas in quantum computing.',
+          'We recommend [https://quantum.country/] as a well-structured introduction to basic ideas in quantum computing.',
       },
     ],
   },
@@ -280,7 +280,7 @@ const siteConfigRaw = {
       {
         name: 'Alexander Wood',
         role: 'Organiser',
-        bio: 'MSci Computer Science graduate, 1st year PhD student in Programming Languages.',
+        bio: 'Alex graduated with a First Class MEng Computer Science, and is starting a PhD at the Bristol Programming Languages Research Group. He is a passionate educator about all aspects of Computer Science, working as a Teaching Assistant alongside his PhD, and for the School of Computer Science on University Open Days.',
         avatar: alexImage,
         socials: [
           { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/alexwood2403/' },
