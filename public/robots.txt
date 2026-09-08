@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-domain.com/sitemap-index.xml
+Sitemap: https://bristolqiskitfallfest.org/sitemap-index.xml
