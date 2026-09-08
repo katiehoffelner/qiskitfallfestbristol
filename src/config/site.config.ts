@@ -217,7 +217,13 @@ const siteConfigRaw = {
         icon: 'download',
         title: 'Download Qiskit library',
         description:
-          'LOCK IN UPDATE THIS.',
+          'USING ANACONDA NAVIGATOR:\
+          Open Anaconda navigator, then open environments. \
+          Choose the environment you would like to run your code in. \
+          In the package list, change the dropdown from Installed to Not installed. \
+          Search the packages for qiskit, and tick the checkbox and then click Apply. \
+          This may take some time but should dowload the library to your environment. \
+          For other methods visit https://quantum.cloud.ibm.com/docs/en/guides/install-qiskit',
       },
       {
         icon: 'user-add',
