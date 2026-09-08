@@ -334,7 +334,7 @@ const siteConfigRaw = {
     description:
       "If you plan on attending the event, we recommend that you join our Discord server. Our team are available on this server to help you out.",
     channels: [
-      { icon: 'mail',      label: 'Email us',     href: 'mailto:contact@bristolqiskitfallfest.org', value: 'katie.hoffelner.2022@bristol.ac.uk' },
+      { icon: 'mail',      label: 'Email us',     href: 'mailto:contact@bristolqiskitfallfest.org', value: 'contact@bristol.ac.uk' },
     ],
     topics: [
       { label: 'Student enquiry',   value: 'general'  },
