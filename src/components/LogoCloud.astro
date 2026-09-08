@@ -12,22 +12,28 @@ const { logocloud } = siteConfig
     <p class="ac-logocloud__label">{logocloud.title}</p>
 
     <div class="ac-logocloud__row">
-      {logocloud.logos.map((logo) => (
-        <div class="ac-logocloud__item" title={logo.name}>
-          {logoCloudSvgPaths[logo.id] ? (
-            <svg
-              class="ac-logocloud__icon"
-              viewBox={logoCloudSvgPaths[logo.id]!.viewBox ?? '0 0 24 24'}
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              aria-label={logo.name}
-              set:html={logoCloudSvgPaths[logo.id]!.path}
-            ></svg>
-          ) : (
-            <span class="ac-logocloud__text">{logo.name}</span>
-          )}
-        </div>
-      ))}
+      {logocloud.logos.map((logo) => {
+        const svg = logoCloudSvgPaths[logo.id]
+        const Icon = svg?.component
+        return (
+          <div class="ac-logocloud__item" title={logo.name}>
+            {Icon ? (
+              <Icon class="ac-logocloud__icon" fill="currentColor" />
+            ) : svg?.path ? (
+              <svg
+                class="ac-logocloud__icon"
+                viewBox={svg.viewBox ?? '0 0 24 24'}
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                aria-label={logo.name}
+                set:html={svg.path}
+              ></svg>
+            ) : (
+              <span class="ac-logocloud__text">{logo.name}</span>
+            )}
+          </div>
+        )
+      })}
     </div>
   </div>
 </LandingSection>
@@ -61,22 +67,21 @@ const { logocloud } = siteConfig
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 3rem;
     height: 3rem;
-    opacity: 0.5;
+    opacity: 0.7;
     transition: opacity 0.25s ease, transform 0.25s ease;
     color: var(--ac-text);
   }
 
   .ac-logocloud__item:hover {
-    opacity: 0.85;
+    opacity: 1;
     transform: translateY(-0.125rem);
   }
 
   .ac-logocloud__icon {
-    width: 100%;
     height: 100%;
-    object-fit: contain;
+    width: auto;
+    max-width: 14rem;
   }
 
   .ac-logocloud__text {
@@ -93,7 +98,6 @@ const { logocloud } = siteConfig
     }
 
     .ac-logocloud__item {
-      width: 2.5rem;
       height: 2.5rem;
     }
   }
