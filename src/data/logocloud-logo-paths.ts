@@ -1,5 +1,7 @@
 import type { SvgComponent } from 'astro/types';
 import ibmSvg from '../images/ibm-quantum.svg'
+import riverlaneSvg from '../images/riverlane.svg'
+import phasecraftSvg from '../images/phasecraft.svg'
 
 /**
  * SVG path fragments for LogoCloud (viewBox "0 0 24 24" unless noted).
@@ -16,6 +18,14 @@ export const logoCloudSvgPaths: Record<string, LogoCloudSvg> = {
   ibm: {
     viewBox: '0 0 1074 401.17',
     component: ibmSvg
+  },
+
+  riverlane: {
+    component: riverlaneSvg,
+  },
+
+  phasecraft: {
+    component: phasecraftSvg,
   },
 
   github: {
