@@ -302,7 +302,9 @@ const siteConfigRaw = {
       {
         question: 'Who can come to the event?',
         answer:
-          'The event is open to all students currently enrolled at the University of Bristol. Please register before attending.',
+          'The event is open to all students currently enrolled at the University of Bristol. \
+          Please register before attending. \
+          If you are not currently enrolled at the University of Bristol, please contact us to find out whether you are eligible to attend.',
       },
       {
         question: 'Is the event free?',
@@ -332,7 +334,8 @@ const siteConfigRaw = {
     badge: null,
     title: "Contact Us",
     description:
-      "If you plan on attending the event, we recommend that you join our Discord server. Our team are available on this server to help you out.",
+      "If you plan on attending the event, we recommend that you join our Discord server. \
+      Our team are available on this server to help you out.",
     channels: [
       { icon: 'mail',      label: 'Email us',     href: 'mailto:contact@bristolqiskitfallfest.org', value: 'contact@bristol.ac.uk' },
     ],
