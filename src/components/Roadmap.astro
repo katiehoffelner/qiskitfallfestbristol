@@ -34,7 +34,7 @@ const statusLabels: Record<string, string> = {
       {howItWorks.steps.map((step, i) => (
         <a
           href={step.href}
-          class:list={['ac-roadmap__action', i === 0 ? 'ac-roadmap__action--primary' : 'ac-roadmap__action--secondary']}
+          class:list={['ac-roadmap__action','ac-roadmap__action--primary']}
           target="_blank"
           rel="noopener noreferrer"
           title={step.description}
