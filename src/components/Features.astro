@@ -24,6 +24,11 @@ const { features } = siteConfig
             <div class="ac-features__text">
               <h3 class="ac-features__title">{feature.title}</h3>
               <p class="ac-features__description">{feature.description}</p>
+              {feature.href && (
+                <a href={feature.href} class="ac-features__link" target="_blank" rel="noopener noreferrer">
+                  Visit {new URL(feature.href).hostname} <Icon name="arrow_right" size={14} />
+                </a>
+              )}
             </div>
           </div>
         </Card>
@@ -73,6 +78,21 @@ const { features } = siteConfig
     font-size: var(--ac-text-sm);
     color: var(--ac-text-muted);
     line-height: var(--ac-leading-relaxed);
+  }
+
+  .ac-features__link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--ac-spacing-1);
+    margin-top: var(--ac-spacing-1);
+    font-size: var(--ac-text-sm);
+    font-weight: var(--ac-font-semibold);
+    color: rgb(var(--ac-primary));
+    text-decoration: none;
+  }
+
+  .ac-features__link:hover {
+    text-decoration: underline;
   }
 
   @media (max-width: 48rem) {
