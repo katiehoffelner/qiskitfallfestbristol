@@ -125,7 +125,8 @@ const siteConfigRaw = {
       {
         period: 'TUES 13th OCT',
         title: 'Quantum Careers Panel',
-        description: 'Explore possible careers in quantum computing, with experts in both industry and academia. We are pleased to welcome speakers from Riverlane, Phasecraft, and University of Bristol\'s QIST CDT.',
+        description: 'Explore possible careers in quantum computing, with experts in both industry and academia. \
+          We are pleased to welcome speakers from Riverlane, Phasecraft, and University of Bristol\'s QIST CDT.',
         status: 'planned',
         tags: ['Location TBA', '5-6pm'],
         href: '/#speakers',
@@ -141,9 +142,14 @@ const siteConfigRaw = {
       {
         period: 'MON 19th OCT',
         title: 'Qiskit Coding Workshop',
-        description: 'Gain hands-on experience coding in Qiskit. We will provide Jupyter Notebooks which walk you through examples of modelling chemical systems using quantum computers, and our team will be available to help and offer guidance. Please check out the Resources page for prerequisite downloads, so you have more time during the session to crack on with coding! If you cannot attend live, we will also be offering coding help on our discord server.',
+        description: 'Gain hands-on experience coding in Qiskit. \
+          We will provide Jupyter Notebooks which walk you through examples of modelling chemical systems using quantum computers, \
+          and our team will be available to help and offer guidance. \
+          If you cannot attend live, we will also be offering coding help on our Discord server.',
         status: 'planned',
         tags: ['Location TBA', 'Time TBA'],
+        href: '/#features',
+        linkLabel: 'Prepare with our resources',
       },
     ],
   },
