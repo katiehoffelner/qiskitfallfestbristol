@@ -352,7 +352,7 @@ const siteConfigRaw = {
     title: 'Thank you to IBM Quantum who help organise Qiskit Fall Fest every year. \
       Qiskit Fall Fest is a global collection of quantum computing events, primarily aimed at undergraduate students.',
     logos: [
-      { name: 'Stripe',  id: 'stripe'  },
+      { name: 'IBM',  id: 'ibm'  },
     ],
   },
 
