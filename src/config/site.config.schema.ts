@@ -28,6 +28,7 @@ export const siteConfigSchema = z.looseObject({
   forms: z
     .object({
       contactAction: z.string().optional(),
+      contactAccessKey: z.string().optional(),
       newsletterAction: z.string().optional(),
       contactNetlify: z.boolean().optional(),
       newsletterNetlify: z.boolean().optional(),

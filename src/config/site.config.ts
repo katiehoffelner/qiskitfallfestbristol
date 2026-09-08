@@ -60,9 +60,11 @@ const siteConfigRaw = {
    * Demo: leave actions empty and Netlify flags false — components show a fake success state.
    * Real POST: set contactAction / newsletterAction to your endpoint.
    * Netlify Forms: set contactNetlify / newsletterNetlify to true and deploy on Netlify.
+   * Web3Forms: set contactAction to https://api.web3forms.com/submit and contactAccessKey to your access key.
    */
   forms: {
-    contactAction: '',
+    contactAction: 'https://api.web3forms.com/submit',
+    contactAccessKey: '28a886d6-2476-4e89-8592-9b665c0037f0',
     newsletterAction: '',
     contactNetlify: false,
     newsletterNetlify: false,
