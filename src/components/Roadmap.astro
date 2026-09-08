@@ -61,6 +61,11 @@ const statusLabels: Record<string, string> = {
             </div>
             <h3 class="ac-roadmap__title">{item.title}</h3>
             <p class="ac-roadmap__description">{item.description}</p>
+            {item.href && (
+              <a href={item.href} class="ac-roadmap__link">
+                {item.linkLabel ?? 'Learn more'} <Icon name="arrow_right" size={14} />
+              </a>
+            )}
             {item.tags && (
               <div class="ac-roadmap__tags">
                 {item.tags.map((tag) => (
@@ -213,6 +218,21 @@ const statusLabels: Record<string, string> = {
     font-size: var(--ac-text-sm);
     color: var(--ac-text-muted);
     line-height: var(--ac-leading-relaxed);
+  }
+
+  .ac-roadmap__link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--ac-spacing-1);
+    width: fit-content;
+    font-size: var(--ac-text-sm);
+    font-weight: var(--ac-font-semibold);
+    color: rgb(var(--ac-primary));
+    text-decoration: none;
+  }
+
+  .ac-roadmap__link:hover {
+    text-decoration: underline;
   }
 
   .ac-roadmap__tags {
