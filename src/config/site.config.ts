@@ -28,14 +28,17 @@ const siteConfigRaw = {
   /** ---- Navigation ---- */
   nav: {
     links: [
-      { label: 'About the Event', href: '#roadmap' },
-      { label: 'Our Speakers', href: '#speakers' },
-      { label: 'Resources', href: '#features' },
-      { label: 'Our Team', href: '#team' },
-      { label: 'FAQ', href: '#faq' },
-      { label: 'Contact Us', href: '#contact' },
+      { label: 'About the Event', href: '/#roadmap' },
+      { label: 'Our Speakers', href: '/#speakers' },
+      { label: 'Resources', href: '/#features' },
+      { label: 'Our Team', href: '/#team' },
+      { label: 'FAQ', href: '/#faq' },
+      { label: 'Contact Us', href: '/#contact' },
     ],
-    cta: { label: 'Get Started', href: '#howItWorks' },
+    cta: {
+      label: 'Register',
+      href: 'https://www.eventbrite.com/e/qiskit-fall-fest-tickets-2000051764668?aff=oddtdtcreator',
+    },
   },
 
   /** ---- SEO & language (@astrojs/sitemap uses seo.siteUrl) ---- */
@@ -76,8 +79,11 @@ const siteConfigRaw = {
     title: 'Explore Quantum Computing',
     description:
       'This October, join us for an introductory lecture, careers panel, and coding workshop. Hosted at the University of Bristol in collaboration with IBM Quantum.',
-    primaryCta: { label: 'Register', href: '#pricing' },
-    secondaryCta: { label: 'See Demo', href: '#features' },
+    primaryCta: {
+      label: 'Register',
+      href: 'https://www.eventbrite.com/e/qiskit-fall-fest-tickets-2000051764668?aff=oddtdtcreator',
+    },
+    secondaryCta: { label: 'See Demo', href: '/#features' },
     stats: [] as { value: string; label: string }[],
     // stats: [
     //   { value: '10K+', label: 'Active users' },
@@ -94,18 +100,24 @@ const siteConfigRaw = {
     steps: [
       {
         number: 1,
+        icon: 'calendar',
         title: 'Register',
         description: 'Register interest on our EventBrite page.',
+        href: 'https://www.eventbrite.com/e/qiskit-fall-fest-tickets-2000051764668?aff=oddtdtcreator',
       },
       {
         number: 2,
+        icon: 'users',
         title: 'Join our Discord server',
         description: 'Find resources, ask questions, and meet others in the community.',
+        href: 'https://discord.gg/VKh5gHcqg6',
       },
       {
         number: 3,
+        icon: 'download',
         title: 'Download Qiskit library',
         description: 'Prepare for our coding workshop by making sure you have the necessary installations.',
+        href: 'https://quantum.cloud.ibm.com/docs/en/guides/install-qiskit',
       },
     ],
   },
@@ -126,9 +138,11 @@ const siteConfigRaw = {
       {
         period: 'TUES 13th OCT',
         title: 'Quantum Careers Panel',
-        description: 'Explore possible careers in quantum computing, with experts in both industry and academia. We are pleased to welcome speakers from Riverland, Phasecraft, and University of Bristol\'s QIST CDT. Click here for more information on the speakers.',
+        description: 'Explore possible careers in quantum computing, with experts in both industry and academia. We are pleased to welcome speakers from Riverlane, Phasecraft, and University of Bristol\'s QIST CDT.',
         status: 'planned',
         tags: ['Location TBA', '5-6pm'],
+        href: '/#speakers',
+        linkLabel: 'Meet the speakers',
       },
       {
         period: 'SUN 18th OCT',
@@ -160,10 +174,7 @@ const siteConfigRaw = {
         role: 'IBM Quantum',
         bio: 'An IBM speaker will lead the Quantum and Qiskit 101 session. More details TBA.',
         avatar: qiskitImage,
-        socials: [
-          { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/katie-hoffelner/' },
-          { platform: 'GitHub', icon: 'github', href: 'https://github.com/katiehoffelner' },
-        ],
+        socials: [],
       },
       {
         name: 'Faisal Alam',
@@ -176,10 +187,7 @@ const siteConfigRaw = {
           Outside of physics, Faisal’s time is spent reading and writing fiction. \
           He is also interested in history and philosophy, and enjoys weightlifting and cricket.',
         avatar: faisalImage,
-        socials: [
-          { platform: 'Twitter', icon: 'twitter', href: '#' },
-          { platform: 'GitHub', icon: 'github', href: '#' },
-        ],
+        socials: [],
       },
       {
         name: 'Tamsin Sandhu',
@@ -191,9 +199,7 @@ const siteConfigRaw = {
           which supports women entering the quantum industry - a cause she is personally passionate about, \
           having entered the company through the same route herself.',
         avatar: tamsinImage,
-        socials: [
-          { platform: 'Twitter', icon: 'twitter', href: '#' },
-        ],
+        socials: [],
       },
       {
         name: 'TBA',
@@ -201,9 +207,7 @@ const siteConfigRaw = {
         role: 'PhD Student at QIST CDT, Bristol',
         bio: 'More details TBA.',
         avatar: qiskitImage,
-        socials: [
-          { platform: 'LinkedIn', icon: 'linkedin', href: '#' },
-        ],
+        socials: [],
       },
     ],
   },
@@ -218,26 +222,30 @@ const siteConfigRaw = {
       {
         icon: 'download',
         title: 'Download Qiskit library',
-        description:
-          'USING ANACONDA NAVIGATOR:\
-          Open Anaconda navigator, then open environments. \
-          Choose the environment you would like to run your code in. \
-          In the package list, change the dropdown from Installed to Not installed. \
-          Search the packages for qiskit, and tick the checkbox and then click Apply. \
-          This may take some time but should dowload the library to your environment. \
-          For other methods visit https://quantum.cloud.ibm.com/docs/en/guides/install-qiskit',
+        description: 'Install the Qiskit Python library so you\'re ready to code during the workshop.',
+        href: 'https://quantum.cloud.ibm.com/docs/en/guides/install-qiskit',
+        details: {
+          label: 'Using Anaconda Navigator',
+          steps: [
+            'Open Anaconda Navigator, then open Environments.',
+            'Choose the environment you\'d like to run your code in.',
+            'In the package list, change the dropdown from "Installed" to "Not installed".',
+            'Search the packages for "qiskit", tick the checkbox, then click Apply.',
+            'This may take some time but should download the library to your environment.',
+          ],
+        },
       },
       {
         icon: 'user-add',
         title: 'Set up an account with IBM Quantum',
-        description:
-          'Create an account with https://quantum.cloud.ibm.com/ to submit code to real quantum computers.',
+        description: 'Create an account to run code on real quantum computers.\nYou\'ll need to use this account in the coding workshops!',
+        href: 'https://quantum.cloud.ibm.com/',
       },
       {
         icon: 'add',
         title: 'Further reading: Quantum Country',
-        description:
-          'We recommend [https://quantum.country/] as a well-structured introduction to basic ideas in quantum computing.',
+        description: 'A well-structured introduction to basic ideas in quantum computing.',
+        href: 'https://quantum.country/',
       },
     ],
   },
@@ -281,7 +289,7 @@ const siteConfigRaw = {
           In her free time she enjoys crocheting, swimming and running.',
         avatar: ellImage,
         socials: [
-          { platform: 'LinkedIn', icon: 'linkedin', href: 'www.linkedin.com/in/eleanor-prideaux-a39459352' },
+          { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/eleanor-prideaux-a39459352' },
           { platform: 'GitHub', icon: 'github', href: 'https://github.com/eleanorprideaux' },
         ],
       },
@@ -339,7 +347,7 @@ const siteConfigRaw = {
     description:
       "If you plan on attending the event, we recommend that you join our Discord server. Our team are available on this server to help you out.",
     channels: [
-      { icon: 'mail',      label: 'Email us',     href: 'mailto:katie.hoffelner.2022@bristol.ac.uk', value: 'katie.hoffelner.2022@bristol.ac.uk' },
+      { icon: 'mail',      label: 'Email us',     href: 'mailto:contact@bristolqiskitfallfest.org', value: 'katie.hoffelner.2022@bristol.ac.uk' },
     ],
     topics: [
       { label: 'Student enquiry',   value: 'general'  },
@@ -360,40 +368,33 @@ const siteConfigRaw = {
 
     /** ---- Footer ---- */
   footer: {
-    description: 'Build, launch, and scale your SaaS with confidence.',
+    description: 'A student-run event exploring quantum computing, hosted at the University of Bristol in collaboration with IBM Quantum.',
     columns: [
       {
-        title: 'Product',
+        title: 'Event',
         links: [
-          { label: 'Features', href: '#features' },
-          { label: 'Pricing', href: '#pricing' },
-          { label: 'Changelog', href: '#' },
-          { label: 'Docs', href: '#' },
+          { label: 'About the Event', href: '/#roadmap' },
+          { label: 'Speakers', href: '/#speakers' },
+          { label: 'Resources', href: '/#features' },
+          { label: 'Our Team', href: '/#team' },
         ],
       },
       {
-        title: 'Company',
+        title: 'Get Help',
         links: [
-          { label: 'About', href: '#' },
-          { label: 'Blog', href: '#' },
-          { label: 'Careers', href: '#' },
-          { label: 'Contact', href: '#' },
+          { label: 'Join our Discord', href: 'https://discord.gg/VKh5gHcqg6' },
+          { label: 'FAQ', href: '/#faq' },
+          { label: 'Contact Us', href: '/#contact' },
         ],
       },
       {
         title: 'Legal',
         links: [
           { label: 'Privacy', href: '/privacy' },
-          { label: 'Terms', href: '#' },
-          { label: 'License', href: '#' },
         ],
       },
     ],
-    socials: [
-      { icon: 'twitter', href: '#' },
-      { icon: 'github', href: '#' },
-      { icon: 'linkedin', href: '#' },
-    ],
+    socials: [] as { icon: string; href: string }[],
   },
 
 

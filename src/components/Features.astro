@@ -29,6 +29,17 @@ const { features } = siteConfig
                   Visit {new URL(feature.href).hostname} <Icon name="arrow_right" size={14} />
                 </a>
               )}
+              {feature.details && (
+                <details class="ac-features__details">
+                  <summary>
+                    {feature.details.label}
+                    <Icon name="chevron_down" size={16} />
+                  </summary>
+                  <ol>
+                    {feature.details.steps.map((step) => <li>{step}</li>)}
+                  </ol>
+                </details>
+              )}
             </div>
           </div>
         </Card>
@@ -93,6 +104,49 @@ const { features } = siteConfig
 
   .ac-features__link:hover {
     text-decoration: underline;
+  }
+
+  .ac-features__details {
+    margin-top: var(--ac-spacing-1);
+    border-top: 0.0625rem solid var(--ac-border-color);
+    padding-top: var(--ac-spacing-3);
+  }
+
+  .ac-features__details summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--ac-spacing-2);
+    cursor: pointer;
+    font-size: var(--ac-text-sm);
+    font-weight: var(--ac-font-semibold);
+    color: var(--ac-text);
+    list-style: none;
+  }
+
+  .ac-features__details summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .ac-features__details summary :global(.ac-icon) {
+    flex-shrink: 0;
+    color: var(--ac-text-muted);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .ac-features__details[open] summary :global(.ac-icon) {
+    transform: rotate(180deg);
+  }
+
+  .ac-features__details ol {
+    margin: var(--ac-spacing-3) 0 0;
+    padding-left: var(--ac-spacing-5);
+    display: flex;
+    flex-direction: column;
+    gap: var(--ac-spacing-2);
+    font-size: var(--ac-text-sm);
+    color: var(--ac-text-muted);
+    line-height: var(--ac-leading-relaxed);
   }
 
   @media (max-width: 48rem) {
