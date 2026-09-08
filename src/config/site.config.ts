@@ -44,7 +44,7 @@ const siteConfigRaw = {
   /** ---- SEO & language (@astrojs/sitemap uses seo.siteUrl) ---- */
   seo: {
     siteUrl: 'https://bristolqiskitfallfest.org',
-    defaultOgImage: '/favicon.svg',
+    defaultOgImage: '/social-preview.jpg',
     twitterHandle: undefined as string | undefined,
     lang: 'en',
   },
@@ -83,7 +83,6 @@ const siteConfigRaw = {
       label: 'Register',
       href: 'https://www.eventbrite.com/e/qiskit-fall-fest-tickets-2000051764668?aff=oddtdtcreator',
     },
-    secondaryCta: { label: 'See Demo', href: '/#features' },
     stats: [] as { value: string; label: string }[],
     // stats: [
     //   { value: '10K+', label: 'Active users' },
@@ -92,32 +91,20 @@ const siteConfigRaw = {
     // ],
   },
 
-  /** ---- How It Works Section ---- */
+  /** ---- Getting Involved (rendered as the two main action buttons inside the Roadmap section) ---- */
   howItWorks: {
-    badge: null,
-    title: 'Getting Started',
-    description: 'If you want to get involved, follow these 3 easy steps.',
     steps: [
       {
-        number: 1,
         icon: 'calendar',
         title: 'Register',
         description: 'Register interest on our EventBrite page.',
         href: 'https://www.eventbrite.com/e/qiskit-fall-fest-tickets-2000051764668?aff=oddtdtcreator',
       },
       {
-        number: 2,
         icon: 'users',
-        title: 'Join our Discord server',
+        title: 'Join our Discord',
         description: 'Find resources, ask questions, and meet others in the community.',
         href: 'https://discord.gg/VKh5gHcqg6',
-      },
-      {
-        number: 3,
-        icon: 'download',
-        title: 'Download Qiskit library',
-        description: 'Prepare for our coding workshop by making sure you have the necessary installations.',
-        href: 'https://quantum.cloud.ibm.com/docs/en/guides/install-qiskit',
       },
     ],
   },
