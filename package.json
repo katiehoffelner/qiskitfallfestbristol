@@ -1,9 +1,8 @@
 {
-  "name": "astro-saas-starter",
+  "name": "qiskit-fall-fest-bristol",
   "type": "module",
   "version": "1.0.0",
-  "description": "A premium SaaS landing page template built with Astro",
-  "author": "Denis Ventura",
+  "description": "Website for Qiskit Fall Fest Bristol, a student-run quantum computing event at the University of Bristol",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
