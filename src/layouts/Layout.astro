@@ -28,11 +28,28 @@ const ogImageUrl = ogImageProp ? absoluteUrl(ogImageProp) : absoluteUrl(defaultI
 
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'SoftwareApplication',
+  '@type': 'Event',
   name: brand.name,
   description,
   url: seo.siteUrl,
-  applicationCategory: 'BusinessApplication',
+  startDate: '2026-10-12',
+  endDate: '2026-10-19',
+  eventStatus: 'https://schema.org/EventScheduled',
+  eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+  location: {
+    '@type': 'Place',
+    name: 'University of Bristol',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Bristol',
+      addressCountry: 'GB',
+    },
+  },
+  organizer: {
+    '@type': 'Organization',
+    name: brand.name,
+    url: seo.siteUrl,
+  },
 }
 ---
 
