@@ -266,7 +266,7 @@ const siteConfigRaw = {
       {
         name: 'Moon Devendra',
         role: 'Organiser',
-        bio: 'MSci Mathematics graduate.',
+        bio: 'Moon Devendra graduated with a First Class Mathematics degree from the University of Bristol in 2026. Their research focused on developing a Hamiltonian to describe the quantum processes governing a solar cell, through which they discovered a passion for quantum chemistry. Through completing the IBM Global Qiskit Summer School, they discovered computational quantum chemistry, a field they endeavour to learn more about. In their free time, they can usually be found climbing up walls!',
         avatar: moonImage,
         socials: [
           { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/nuclear-moon/' },
