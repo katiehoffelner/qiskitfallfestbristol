@@ -195,10 +195,14 @@ const siteConfigRaw = {
         socials: [],
       },
       {
-        name: 'TBA',
-        /**name: 'Zulekha (Zu) Samiullah', */  
-        role: 'PhD Student at QIST CDT, Bristol',
-        bio: 'More details TBA.',
+        name: 'Zulekha (Zu) Samiullah',
+        role: 'PhD Student at Quantum Engineering CDT, Bristol',
+        bio: 'Zulekha Samiullah is a final-year PhD student searching for long-range entanglement between spins on hexagonal lattices. \
+          She is a Widening Participation Tutor, sharing her love of maths and physics with young people across the UK. \
+          Zulekha has delivered winter maths workshops funded by the HIMR. \
+          She has co-organised Quantum in the Summer and spoken at Quantum Questions at Pint of Science. \
+          During her PhD, she founded Quantum Squash and annual showcase Quantum Carousel. \
+          She also completed a Department for Education policy internship through cross-government unit, Open Innovation Team.',
         avatar: qiskitImage,
         socials: [],
       },
