@@ -118,7 +118,8 @@ const siteConfigRaw = {
       {
         period: 'MON 12th OCT',
         title: 'Quantum and Qiskit 101',
-        description: 'Learn about basic concepts in quantum computing, and the fundamentals coding with Qiskit. Hosted by a speaker from IBM Quantum (speaker TBD). No prior knowledge assumed.',
+        description: 'Learn about basic concepts in quantum computing, and the fundamentals coding with Qiskit. \
+          Hosted by a speaker from IBM Quantum (speaker TBA). No prior knowledge assumed.',
         status: 'in-progress',
         tags: ['Location TBA', '5-6pm'],
       },
@@ -270,7 +271,11 @@ const siteConfigRaw = {
       {
         name: 'Moon Devendra',
         role: 'Organiser',
-        bio: 'Moon Devendra graduated with a First Class Mathematics degree from the University of Bristol in 2026. Their research focused on developing a Hamiltonian to describe the quantum processes governing a solar cell, through which they discovered a passion for quantum chemistry. Through completing the IBM Global Qiskit Summer School, they discovered computational quantum chemistry, a field they endeavour to learn more about. In their free time, they can usually be found climbing up walls!',
+        bio: 'Moon Devendra graduated with a First Class Mathematics degree from the University of Bristol in 2026. \
+          Their research focused on developing a Hamiltonian to describe the quantum processes governing a solar cell, \
+          through which they discovered a passion for quantum chemistry. Through completing the IBM Qiskit Global Summer School, \
+          they discovered computational quantum chemistry, a field they endeavour to learn more about. \
+          In their free time, they can usually be found climbing up walls!',
         avatar: moonImage,
         socials: [
           { platform: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/nuclear-moon/' },
