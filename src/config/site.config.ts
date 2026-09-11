@@ -228,7 +228,7 @@ const siteConfigRaw = {
             'Open Anaconda Navigator, then open Environments.',
             'Choose the environment you\'d like to run your code in.',
             'In the package list, change the dropdown from "Installed" to "Not installed".',
-            'Search the packages for "qiskit", tick the checkbox, then click Apply.',
+            'Search the packages for "qiskit", tick the checkbox, then click "Apply".',
             'This may take some time but should download the library to your environment.',
           ],
         },
@@ -238,6 +238,18 @@ const siteConfigRaw = {
         title: 'Set up an account with IBM Quantum',
         description: 'Create an account to run code on real quantum computers.\nYou\'ll need to use this account in the coding workshops!',
         href: 'https://quantum.cloud.ibm.com/',
+        details: {
+          label: 'Creating an Account',
+          steps: [
+            'On IBM Quantum Platform press "Sign in" -> "Create a new account."',
+            'The trial account lasts 30 days, after which you will be asked for card information. \
+            A small amount (~£2) will be charged for verification then refunded within a few days. \
+            After this, you will be charged if and only if you open a "Pay-as-you-go" instance, \
+            but this is not necessary to complete our coding workshop.',
+            'Once you are logged in to IBM Quantum Platform, go to "Instances" -> "View all" -> "Create Instance" and create an "Open" instance. \
+            This is what you will use to submit code to real quantum computers during our coding workshops!',
+          ],
+        },
       },
       {
         icon: 'add',
