@@ -336,7 +336,10 @@ const siteConfigRaw = {
       {
         question: 'Is the event free?',
         answer:
-          'Yes!',
+          'Yes! Note: IBM Quantum offers an "Open" plan, which gives 10 minutes of free computing time. \
+          You will not be charged if you use too much time; if your experiment goes over 10 minutes, \
+          they will stop computing rather than charging you. You will be charged if and only if you open a "Pay-as-you-go" instance, \
+          but this is not necessary to complete our coding workshop.',
       },
       {
         question: 'Do I need to know anything about quantum computing?',
@@ -360,14 +363,6 @@ const siteConfigRaw = {
           We highly encourage you to work through the Resources page which will help you making the necessary installations, \
           so that you can spend more time during the session working on the coding exercises. \
           The first three sessions don\'t require any preparation, just show up ready to learn!',
-      },
-      {
-        question: 'Will IBM charge me to use their quantum computers?',
-        answer:
-          'IBM Quantum offers an "Open" plan, which gives 10 minutes of free computing time. \
-          You will not be charged if you use this; if your experiment goes over 10 minutes, \
-          they will stop computing rather than charging you. You will be charged if and only if you open a "Pay-as-you-go" instance, \
-          but this is not necessary to complete our coding workshop.',
       },
     ],
   },
