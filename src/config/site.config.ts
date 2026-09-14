@@ -127,7 +127,7 @@ const siteConfigRaw = {
         period: 'TUES 13th OCT',
         title: 'Quantum Careers Panel',
         description: 'Explore possible careers in quantum computing, with experts in both industry and academia. \
-          We are pleased to welcome speakers from Riverlane, Phasecraft, and University of Bristol\'s QIST CDT.',
+          We are pleased to welcome speakers from Riverlane, Phasecraft, and University of Bristol\'s Quantum Engineering CDT.',
         status: 'planned',
         tags: ['Location TBA', '5-6pm'],
         href: '/#speakers',
