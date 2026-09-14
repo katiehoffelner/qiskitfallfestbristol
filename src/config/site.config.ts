@@ -135,7 +135,7 @@ const siteConfigRaw = {
       },
       {
         period: 'SUN 18th OCT',
-        title: 'Picnic Social',
+        title: 'Board Games Social',
         description: 'Get to know other students interested in quantum in a friendly, laid-back social setting.',
         status: 'planned',
         tags: ['Location TBA', 'Time TBA'],
