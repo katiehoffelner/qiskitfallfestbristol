@@ -8,4 +8,7 @@ export default defineConfig({
   site: siteConfig.seo.siteUrl,
   base,
   integrations: [sitemap()],
+  build: {
+    inlineStylesheets: 'always',
+  },
 })

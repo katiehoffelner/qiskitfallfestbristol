@@ -1,8 +1,10 @@
 ---
 import '../styles/globals.css'
+import { Image } from 'astro:assets'
 import { siteConfig } from '../config/site.config'
 import Badge from './Badge.astro'
 import Icon from './Icon.astro'
+import heroBackground from '../images/hero background.png'
 
 const { hero } = siteConfig
 const titleLines = hero.title.split('\n')
@@ -11,7 +13,17 @@ const titleLines = hero.title.split('\n')
 <section class="ac-hero">
   <div class="ac-hero__bg">
     <div class="ac-hero__gradient"></div>
-    <div class="ac-hero__grid-pattern"></div>
+    <Image
+      src={heroBackground}
+      alt=""
+      class="ac-hero__grid-pattern"
+      widths={[480, 768, 1200, 1366]}
+      sizes="100vw"
+      format="webp"
+      quality={68}
+      loading="eager"
+      fetchpriority="high"
+    />
   </div>
 
   <div class="container ac-hero__content">
@@ -97,10 +109,10 @@ const titleLines = hero.title.split('\n')
   .ac-hero__grid-pattern {
     position: absolute;
     inset: 0;
-    background-image: url(../images/hero background.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 
   .ac-hero__content {
