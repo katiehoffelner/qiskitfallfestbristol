@@ -16,6 +16,7 @@ import alexImage from '../images/alex.png'
 import tamsinImage from '../images/tamsin.png'
 import faisalImage from '../images/faisal.jpg'
 import qiskitImage from '../images/qiskit.png'
+import zuImage from '../images/zu.jpeg'
 
 const siteConfigRaw = {
   /** ---- Brand ---- */
@@ -204,7 +205,7 @@ const siteConfigRaw = {
           She has co-organised Quantum in the Summer and spoken at Quantum Questions at Pint of Science. \
           During her PhD, she founded Quantum Squash and annual showcase Quantum Carousel. \
           She also completed a Department for Education policy internship through cross-government unit, Open Innovation Team.',
-        avatar: qiskitImage,
+        avatar: zuImage,
         socials: [],
       },
     ],
