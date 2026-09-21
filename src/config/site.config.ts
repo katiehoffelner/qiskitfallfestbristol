@@ -149,7 +149,7 @@ const siteConfigRaw = {
           and our team will be available to help and offer guidance. \
           If you cannot attend live, we will also be offering coding help on our Discord server.',
         status: 'planned',
-        tags: ['1.14 Computer Room', 'Time TBA'],
+        tags: ['1.14 Computer Room', '1-4pm'],
         href: '/#features',
         linkLabel: 'Prepare with our resources',
       },
