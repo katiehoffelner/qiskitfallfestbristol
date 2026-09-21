@@ -122,7 +122,7 @@ const siteConfigRaw = {
         description: 'Learn about basic concepts in quantum computing, and the fundamentals coding with Qiskit. \
           Hosted by a speaker from IBM Quantum (speaker TBA). No prior knowledge assumed.',
         status: 'in-progress',
-        tags: ['Location TBA', '5-6pm'],
+        tags: ['Frank Lecture Theatre', '5-6pm'],
       },
       {
         period: 'TUES 13th OCT',
@@ -130,7 +130,7 @@ const siteConfigRaw = {
         description: 'Explore possible careers in quantum computing, with experts in both industry and academia. \
           We are pleased to welcome speakers from Riverlane, Phasecraft, and University of Bristol\'s Quantum Engineering CDT.',
         status: 'planned',
-        tags: ['Location TBA', '5-6pm'],
+        tags: ['Frank Lecture Theatre', '5-7pm'],
         href: '/#speakers',
         linkLabel: 'Meet the speakers',
       },
@@ -149,7 +149,7 @@ const siteConfigRaw = {
           and our team will be available to help and offer guidance. \
           If you cannot attend live, we will also be offering coding help on our Discord server.',
         status: 'planned',
-        tags: ['Location TBA', 'Time TBA'],
+        tags: ['1.14 Computer Room', 'Time TBA'],
         href: '/#features',
         linkLabel: 'Prepare with our resources',
       },
