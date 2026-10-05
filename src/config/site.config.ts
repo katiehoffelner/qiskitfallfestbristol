@@ -161,13 +161,13 @@ const siteConfigRaw = {
     badge: null,
     title: 'Our Speakers',
     description: 'Thank you to the speakers who have agreed to help with this event. \
-      The first speaker, from IBM Quantum, will be leading the Quantum and Qiskit 101 session. \
+      Daniel Sierra-Sosa will be leading the Quantum and Qiskit 101 session. \
       The other three speakers will be speaking in the Quantum Careers Panel.',
     members: [
       {
-        name: 'TBA',
-        role: 'IBM Quantum',
-        bio: 'An IBM speaker will lead the Quantum and Qiskit 101 session. More details TBA.',
+        name: 'Daniel Sierra-Sosa',
+        role: 'Assistant Professor at The Catholic University of America',
+        bio: '',
         avatar: qiskitImage,
         socials: [],
       },
