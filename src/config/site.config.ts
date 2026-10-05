@@ -139,7 +139,7 @@ const siteConfigRaw = {
         title: 'Board Games Social',
         description: 'Get to know other students interested in quantum in a friendly, laid-back social setting.',
         status: 'planned',
-        tags: ['Location TBA', 'Time TBA'],
+        tags: ['Senate House 5.22', '1-3pm'],
       },
       {
         period: 'MON 19th OCT',
