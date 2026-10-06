@@ -17,6 +17,7 @@ import tamsinImage from '../images/tamsin.png'
 import faisalImage from '../images/faisal.jpg'
 import qiskitImage from '../images/qiskit.png'
 import zuImage from '../images/zu.jpeg'
+import danielImage from '../images/daniel.JPG'
 
 const siteConfigRaw = {
   /** ---- Brand ---- */
@@ -167,8 +168,12 @@ const siteConfigRaw = {
       {
         name: 'Daniel Sierra-Sosa',
         role: 'Assistant Professor at The Catholic University of America',
-        bio: '',
-        avatar: qiskitImage,
+        bio: 'Dr. Daniel Sierra-Sosa is an Assistant Professor in the Department of Computer Science, \
+          with a secondary appointment in the Department of Electrical and Computer Engineering. \
+          He is an active researcher in the fields of quantum computing, machine learning, healthcare data processing, image processing, and data analytics. \
+          He is the co-author and lead author of several manuscripts published in recognized journals. \
+          Dr. Sierra-Sosa is also a Qiskit Advocate and a certified instructor in quantum computing, data science, and artificial intelligence.',
+        avatar: danielImage,
         socials: [],
       },
       {
