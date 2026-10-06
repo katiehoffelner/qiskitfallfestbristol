@@ -17,7 +17,7 @@ import tamsinImage from '../images/tamsin.png'
 import faisalImage from '../images/faisal.jpg'
 import qiskitImage from '../images/qiskit.png'
 import zuImage from '../images/zu.jpeg'
-import danielImage from '../images/daniel.JPG'
+import danielImage from '../images/daniel.jpg'
 
 const siteConfigRaw = {
   /** ---- Brand ---- */
