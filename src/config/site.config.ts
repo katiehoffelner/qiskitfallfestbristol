@@ -78,9 +78,9 @@ const siteConfigRaw = {
   /** ---- Hero Section ---- */
   hero: {
     badge: null,
-    title: 'Explore Quantum Computing',
+    title: 'LESS THAN ONE WEEK TO GO!',
     description:
-      'This October, join us for an introductory lecture, careers panel, and coding workshop. Hosted at the University of Bristol in collaboration with IBM Quantum.',
+      'Join us for an introductory lecture, careers panel, and coding workshop, to learn about quantum computing. Hosted at the University of Bristol in collaboration with IBM Quantum.',
     primaryCta: {
       label: 'Register',
       href: 'https://www.eventbrite.com/e/qiskit-fall-fest-tickets-2000051764668?aff=oddtdtcreator',
