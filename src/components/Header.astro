@@ -1,10 +1,10 @@
 ---
-import '../styles/globals.css'
-import { siteConfig } from '../config/site.config'
-import Icon from './Icon.astro'
-import ThemeSwitch from './ThemeSwitch.astro'
+import "../styles/globals.css";
+import { siteConfig } from "../config/site.config";
+import Icon from "./Icon.astro";
+import ThemeSwitch from "./ThemeSwitch.astro";
 
-const { brand, nav } = siteConfig
+const { brand, nav } = siteConfig;
 ---
 
 <header class="ac-header" data-header>
@@ -14,22 +14,34 @@ const { brand, nav } = siteConfig
     </a>
 
     <nav class="ac-header__nav" data-nav>
-      {nav.links.map((link) => (
-        <a href={link.href} class="ac-header__link">
-          {link.label}
-        </a>
-      ))}
+      {
+        nav.links.map((link) => (
+          <a href={link.href} class="ac-header__link" data-umami-event="nav-click" data-umami-event-label={link.label}>
+            {link.label}
+          </a>
+        ))
+      }
     </nav>
 
     <div class="ac-header__actions">
       <div class="ac-header__theme">
         <ThemeSwitch />
       </div>
-      <a href={nav.cta.href} class="ac-header__cta" target="_blank" rel="noopener noreferrer">
+      <a
+        href={nav.cta.href}
+        data-umami-event="cta-click"
+        class="ac-header__cta"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         {nav.cta.label}
       </a>
 
-      <button class="ac-header__toggle" data-nav-toggle aria-label="Toggle menu">
+      <button
+        class="ac-header__toggle"
+        data-nav-toggle
+        aria-label="Toggle menu"
+      >
         <Icon name="menu" size={24} />
       </button>
     </div>
@@ -39,16 +51,24 @@ const { brand, nav } = siteConfig
   <div class="ac-header__mobile" data-mobile-nav>
     <nav class="ac-header__mobile-nav">
       <div class="ac-header__mobile-links">
-        {nav.links.map((link) => (
-          <a href={link.href} class="ac-header__mobile-link">
-            {link.label}
-          </a>
-        ))}
+        {
+          nav.links.map((link) => (
+            <a href={link.href} class="ac-header__mobile-link" data-umami-event="nav-click" data-umami-event-label={link.label}>
+              {link.label}
+            </a>
+          ))
+        }
       </div>
       <div class="ac-header__mobile-theme">
         <ThemeSwitch />
       </div>
-      <a href={nav.cta.href} class="ac-header__mobile-cta" target="_blank" rel="noopener noreferrer">
+      <a
+        href={nav.cta.href}
+        data-umami-event="cta-click"
+        class="ac-header__mobile-cta"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         {nav.cta.label}
       </a>
     </nav>
@@ -222,24 +242,24 @@ const { brand, nav } = siteConfig
 </style>
 
 <script>
-  const header = document.querySelector('[data-header]') as HTMLElement
-  const toggle = document.querySelector('[data-nav-toggle]') as HTMLElement
-  const mobileNav = document.querySelector('[data-mobile-nav]') as HTMLElement
+  const header = document.querySelector("[data-header]") as HTMLElement;
+  const toggle = document.querySelector("[data-nav-toggle]") as HTMLElement;
+  const mobileNav = document.querySelector("[data-mobile-nav]") as HTMLElement;
 
   // Scroll effect
-  window.addEventListener('scroll', () => {
-    header.classList.toggle('ac-header--scrolled', window.scrollY > 20)
-  })
+  window.addEventListener("scroll", () => {
+    header.classList.toggle("ac-header--scrolled", window.scrollY > 20);
+  });
 
   // Mobile toggle
-  toggle?.addEventListener('click', () => {
-    mobileNav.classList.toggle('ac-header__mobile--open')
-  })
+  toggle?.addEventListener("click", () => {
+    mobileNav.classList.toggle("ac-header__mobile--open");
+  });
 
   // Close on link click
-  mobileNav?.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', () => {
-      mobileNav.classList.remove('ac-header__mobile--open')
-    })
-  })
+  mobileNav?.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      mobileNav.classList.remove("ac-header__mobile--open");
+    });
+  });
 </script>

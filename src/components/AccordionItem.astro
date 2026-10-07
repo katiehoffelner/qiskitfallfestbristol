@@ -26,7 +26,7 @@ const {
   name={name}
   open={open}
 >
-  <summary class="ac-accordion-item-title">
+  <summary class="ac-accordion-item-title" data-umami-event="faq-toggle" data-umami-event-label={title}>
     <span>{title}</span>
     {
       toggleStyle === 'chevron' ? (

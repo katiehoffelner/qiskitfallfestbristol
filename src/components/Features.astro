@@ -25,13 +25,13 @@ const { features } = siteConfig
               <h3 class="ac-features__title">{feature.title}</h3>
               <p class="ac-features__description">{feature.description}</p>
               {feature.href && (
-                <a href={feature.href} class="ac-features__link" target="_blank" rel="noopener noreferrer">
+                <a href={feature.href} class="ac-features__link" data-umami-event="feature-link-click" data-umami-event-label={feature.title} target="_blank" rel="noopener noreferrer">
                   Visit {new URL(feature.href).hostname} <Icon name="arrow_right" size={14} />
                 </a>
               )}
               {feature.details && (
                 <details class="ac-features__details">
-                  <summary>
+                  <summary data-umami-event="feature-details-toggle" data-umami-event-label={feature.title}>
                     {feature.details.label}
                     <Icon name="chevron_down" size={16} />
                   </summary>

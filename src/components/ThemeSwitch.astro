@@ -11,6 +11,7 @@ const { label, class: className } = Astro.props
 <label class:list={['ac-theme-switch-wrapper', className]}>
   <input
     data-theme-switch
+    data-umami-event="theme-toggle"
     class="ac-theme-switch"
     aria-checked="false"
     type="checkbox"

@@ -19,7 +19,7 @@ const year = new Date().getFullYear()
           <p class="ac-footer__description">{footer.description}</p>
           <div class="ac-footer__socials">
             {footer.socials.map((social) => (
-              <a href={social.href} class="ac-footer__social" aria-label={social.icon} target="_blank" rel="noopener">
+              <a href={social.href} class="ac-footer__social" data-umami-event="footer-social-click" data-umami-event-icon={social.icon} aria-label={social.icon} target="_blank" rel="noopener">
                 <Icon name={social.icon} size={20} />
               </a>
             ))}
@@ -38,6 +38,8 @@ const year = new Date().getFullYear()
                 <a
                   href={link.href}
                   class="ac-footer__link"
+                  data-umami-event="footer-link-click"
+                  data-umami-event-label={link.label}
                   target={link.href.startsWith('http') ? '_blank' : undefined}
                   rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                 >{link.label}</a>

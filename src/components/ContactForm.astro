@@ -73,7 +73,7 @@ const contactViaFetch = !contactNetlify && contactAccessKey.length > 0
           required
         />
 
-        <Button type="submit" label={contact.cta} variant="primary" />
+        <Button type="submit" label={contact.cta} variant="primary" data-umami-event="contact-form-submit" />
 
         <p class="ac-contact__status" data-contact-status role="status" aria-live="polite"></p>
 

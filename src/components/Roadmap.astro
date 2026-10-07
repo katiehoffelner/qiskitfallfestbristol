@@ -34,6 +34,8 @@ const statusLabels: Record<string, string> = {
       {howItWorks.steps.map((step, i) => (
         <a
           href={step.href}
+          data-umami-event="roadmap-action-click"
+          data-umami-event-label={step.title}
           class:list={['ac-roadmap__action','ac-roadmap__action--primary']}
           target="_blank"
           rel="noopener noreferrer"
@@ -77,7 +79,7 @@ const statusLabels: Record<string, string> = {
             <h3 class="ac-roadmap__title">{item.title}</h3>
             <p class="ac-roadmap__description">{item.description}</p>
             {item.href && (
-              <a href={item.href} class="ac-roadmap__link">
+              <a href={item.href} class="ac-roadmap__link" data-umami-event="roadmap-link-click" data-umami-event-label={item.title}>
                 {item.linkLabel ?? 'Learn more'} <Icon name="arrow_right" size={14} />
               </a>
             )}

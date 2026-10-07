@@ -34,7 +34,7 @@ const { badge, title, description, channels } = Astro.props
           </div>
           <div class="ac-contact__channel-info">
             <span class="ac-contact__channel-label">{channel.label}</span>
-            <a href={channel.href} class="ac-contact__channel-value">
+            <a href={channel.href} class="ac-contact__channel-value" data-umami-event="contact-channel-click" data-umami-event-label={channel.label}>
               {channel.value}
             </a>
           </div>
