@@ -80,7 +80,7 @@ const siteConfigRaw = {
     badge: null,
     title: 'LESS THAN ONE WEEK TO GO!',
     description:
-      'Join us to explore the exciting quantum computing sector through an introductory lecture, careers panel and coding workshop. Register today to save your space.',
+      'Explore the exciting quantum computing sector through an introductory lecture, careers panel and coding workshop. Register today to save your space.',
     primaryCta: {
       label: 'Register',
       href: 'https://www.eventbrite.com/e/qiskit-fall-fest-tickets-2000051764668?aff=oddtdtcreator',
