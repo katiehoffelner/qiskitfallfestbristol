@@ -121,7 +121,7 @@ const siteConfigRaw = {
         period: 'MON 12th OCT',
         title: 'Quantum and Qiskit 101',
         description: 'Learn about basic concepts in quantum computing, and the fundamentals coding with Qiskit. \
-          Hosted by a speaker from IBM Quantum (speaker TBA). No prior knowledge assumed.',
+          Hosted by Daniel Sierra-Sosa, an Assistant Professor in the Department of Computer Science at the Catholic University of America. No prior knowledge assumed.',
         status: 'in-progress',
         tags: ['Frank Lecture Theatre', '5-6pm'],
       },
