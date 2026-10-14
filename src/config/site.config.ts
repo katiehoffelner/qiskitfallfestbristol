@@ -122,7 +122,7 @@ const siteConfigRaw = {
         title: 'Quantum and Qiskit 101',
         description: 'Learn about basic concepts in quantum computing, and the fundamentals coding with Qiskit. \
           Hosted by Daniel Sierra-Sosa, an Assistant Professor in the Department of Computer Science at the Catholic University of America. No prior knowledge assumed.',
-        status: 'in-progress',
+        status: 'done',
         tags: ['Frank Lecture Theatre', '5-6pm'],
       },
       {
@@ -130,7 +130,7 @@ const siteConfigRaw = {
         title: 'Quantum Careers Panel',
         description: 'Explore possible careers in quantum computing, with experts in both industry and academia. \
           We are pleased to welcome speakers from Riverlane, Phasecraft, and University of Bristol\'s Quantum Engineering CDT.',
-        status: 'planned',
+        status: 'done',
         tags: ['Frank Lecture Theatre', '5-7pm'],
         href: '/#speakers',
         linkLabel: 'Meet the speakers',
@@ -139,7 +139,7 @@ const siteConfigRaw = {
         period: 'SUN 18th OCT',
         title: 'Board Games Social',
         description: 'Get to know other students interested in quantum in a friendly, laid-back social setting.',
-        status: 'planned',
+        status: 'in-progress',
         tags: ['Senate House 5.22', '1-3pm'],
       },
       {
