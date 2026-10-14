@@ -78,7 +78,7 @@ const siteConfigRaw = {
   /** ---- Hero Section ---- */
   hero: {
     badge: null,
-    title: 'LESS THAN ONE WEEK TO GO!',
+    title: 'THIS WEEK!',
     description:
       'Explore the exciting quantum computing sector through an introductory lecture, careers panel and coding workshop. Register today to save your space.',
     primaryCta: {
