@@ -38,8 +38,8 @@ const siteConfigRaw = {
       { label: 'Contact Us', href: '/#contact' },
     ],
     cta: {
-      label: 'Register',
-      href: 'https://www.eventbrite.com/e/qiskit-fall-fest-tickets-2000051764668?aff=oddtdtcreator',
+      label: 'Discord',
+      href: 'https://discord.gg/XPEvp4Re5',
     },
   },
 
@@ -78,12 +78,13 @@ const siteConfigRaw = {
   /** ---- Hero Section ---- */
   hero: {
     badge: null,
-    title: 'THIS WEEK!',
+    title: 'Qiskit Fall Fest 2026',
     description:
-      'Explore the exciting quantum computing sector through an introductory lecture, careers panel and coding workshop. Register today to save your space.',
+      'Explore the exciting quantum computing sector through an introductory lecture, careers panel and coding workshop. Registrations now closed for 2026, \
+      but it\'s not too late to join our Discord community.',
     primaryCta: {
-      label: 'Register',
-      href: 'https://www.eventbrite.com/e/qiskit-fall-fest-tickets-2000051764668?aff=oddtdtcreator',
+      label: 'Join Discord',
+      href: 'https://discord.gg/XPEvp4Re5',
     },
     stats: [] as { value: string; label: string }[],
     // stats: [
@@ -98,9 +99,9 @@ const siteConfigRaw = {
     steps: [
       {
         icon: 'calendar',
-        title: 'Register',
-        description: 'Register interest on our EventBrite page.',
-        href: 'https://www.eventbrite.com/e/qiskit-fall-fest-tickets-2000051764668?aff=oddtdtcreator',
+        title: 'Give feedback',
+        description: 'Feedback form to help improve future events.',
+        href: 'https://forms.cloud.microsoft/e/uw6t9zmXj6',
       },
       {
         icon: 'users',
@@ -139,7 +140,7 @@ const siteConfigRaw = {
         period: 'SUN 18th OCT',
         title: 'Board Games Social',
         description: 'Get to know other students interested in quantum in a friendly, laid-back social setting.',
-        status: 'in-progress',
+        status: 'done',
         tags: ['Senate House 5.22', '1-3pm'],
       },
       {
@@ -149,7 +150,7 @@ const siteConfigRaw = {
           We will provide Jupyter Notebooks which walk you through examples of modelling chemical systems using quantum computers, \
           and our team will be available to help and offer guidance. \
           If you cannot attend live, we will also be offering coding help on our Discord server.',
-        status: 'planned',
+        status: 'done',
         tags: ['1.14 Computer Room', '1-4pm'],
         href: '/#features',
         linkLabel: 'Prepare with our resources',
