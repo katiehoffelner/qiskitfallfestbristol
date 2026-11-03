@@ -80,7 +80,7 @@ const siteConfigRaw = {
     badge: null,
     title: 'Qiskit Fall Fest 2026',
     description:
-      'Explore the exciting quantum computing sector through an introductory lecture, careers panel and coding workshop. Registrations now closed for 2026, \
+      'Explore the exciting quantum computing sector through an introductory lecture, careers panel and coding workshop. Registrations closed for 2026, \
       but there\'s still time to join our Discord community.',
     primaryCta: {
       label: 'Join Discord',
