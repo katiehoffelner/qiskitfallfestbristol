@@ -81,7 +81,7 @@ const siteConfigRaw = {
     title: 'Qiskit Fall Fest 2026',
     description:
       'Explore the exciting quantum computing sector through an introductory lecture, careers panel and coding workshop. Registrations now closed for 2026, \
-      but it\'s not too late to join our Discord community.',
+      but there\'s still time to join our Discord community.',
     primaryCta: {
       label: 'Join Discord',
       href: 'https://discord.gg/XPEvp4Re5',
